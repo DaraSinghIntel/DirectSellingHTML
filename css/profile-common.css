@@ -1,0 +1,52 @@
+/* My Profile Page CSS Start */
+.sidebar-outer-panel {padding-left:46.5rem;position: relative}
+/* Left Sidebar css Start */
+.sidebar-outer-panel .left-sidebar {position:absolute; left:0px; top: -0.5rem; width:43.5rem;  background:#009edc; padding-top: 8.6rem; min-height: 100%;}
+.left-sidebar ul{background: #009edc;}
+.left-sidebar ul > li{font-size: 2.1rem}
+.left-sidebar ul > li > a{border-left:0.6rem solid transparent; border-bottom: 0.1rem solid #05b0ed; padding:1.5rem 6rem 1.5rem 3rem; color: #fff!important; border-radius: 0; display: block; position: relative;}
+.left-sidebar ul > li > a.active{background-color:#06b6f2; border-left-color: #fff}
+.left-sidebar ul > li > a > span{font-size: 1.4rem; font-weight: 300; display: block}
+.left-sidebar ul > li > a > i{position: absolute; right: 4rem; font-size: 1.5rem; top: 50%; margin-top: -0.8rem;}
+.left-sidebar ul > li > a > i:before{color: #08bceb;}
+.left-sidebar ul > li > a.active i{display: none}
+.left-sidebar ul > li:first-child a {border-top: 0.1rem solid #05b0ed;}
+/* Left Sidebar css End */
+
+.sidebar-outer-panel .widget-subtitle{text-transform: inherit; margin:1rem 0 0.5rem;}
+/* Addresses Panel css Start */
+.addresses-panel{}
+/* Tab Panel css Start */
+.addresses-panel .nav-tabs{padding: 1.5rem 1.5rem 0}
+.addresses-panel .nav-tabs > li{margin-bottom: -2px;}
+.addresses-panel .nav-tabs > li + li{padding-left: 5rem}
+.addresses-panel .nav-tabs > li a, .addresses-panel .nav-tabs > li a:hover{font-size: 1.7rem !important;color: #999;border: none;border-bottom:0.5rem solid transparent;background: none;padding: 0.5rem 1rem;font-weight: 400;line-height: 2.0rem;}
+.addresses-panel .nav-tabs > li.active a{background: none;color: #0dbaec;border: none;bor;border-bottom: 0.3rem solid #0dbaec;}
+/* Tab Panel css End */
+.addresses-panel .tab-content{padding-bottom: 2rem}
+.addresses-panel .tab-pane .flex > div{margin-top: 2rem;}
+.addresses-panel .tab-pane .addres-box-outr{min-height: 186px;}
+.addresses-panel .tab-pane .profile-address .addres-box-outr{display: block!important}
+.addresses-panel .tab-pane .profile-address .addres-box-outr > .adrs-title > span{display: none}
+.addresses-panel .tab-pane .addres-box-outr .add-contact-panel{margin:2.0rem 0 0; padding-top: 1.6rem;}
+.addresses-panel .swith-panel{margin: 1rem 0 0 0; }
+.addresses-panel .switch .btn-toggle{transform: translateY(0%); top:0}
+.addresses-panel .switch-info{margin: 0.3rem 0 2rem;}
+.addresses-panel .switch-info label.switch-label{margin-top: 0;color: #333;text-transform: inherit;font-size: 1.6rem;line-height: 2.0rem;}
+.text-default{font-size: 1.6rem; line-height: 2.0rem; font-weight: 300;display: block;padding-top: 1.3rem; color: #666;}
+/* Addresses Panel css End */
+/* Set Notifications Panel css Start */
+.notification-panel{display: none}
+.set-notifications{background: #fff; border:1px solid #d8d8d8; border-radius:0.5rem; padding: 1rem 4.5rem 2rem; }
+.set-notifications + .set-notifications{margin-top: 2rem}
+.set-notifications > h3{font-size: 3.0rem; font-weight: 100;margin: 2rem 0 1rem;position: relative;}
+.set-notifications > h3 > i{font-size: 1.1rem; position: absolute; top: 50%; margin-top: -0.7rem; right: 0; cursor: pointer}
+.set-notifications > h3 > i::before{color: #0dbaec}
+.set-notifications > h3 > i:hover::before{color: #006da9}
+.set-notifications > h3 > i.closed::before{content: "\e91e";}
+
+.set-notifications > ul{font-size: 2.1rem; padding: 0 0 2rem 1.5rem; border-top: 1px solid #d8d8d8;}
+.set-notifications > ul li{padding: 1.7rem 0; border-bottom: 1px solid #d8d8d8;}
+.set-notifications > ul li .switch{margin: 0}
+/* Set Notifications Panel css End */
+/* My Profile Page CSS End */

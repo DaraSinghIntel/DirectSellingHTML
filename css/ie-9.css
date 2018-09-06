@@ -1,0 +1,12 @@
+@charset "utf-8";
+/**/
+.form-control.filled + .form-control-placeholder, .form-control.filled + label.error + .form-control-placeholder{top:-1.4rem;font-size: 1.40rem !important;}
+.txt-area-group .form-control.filled + .form-control-placeholder, .txt-area-group .form-control.filled + label.error + .form-control-placeholder{top:-1.4rem; font-size: 1.40rem !important; background: #ffffff; width: 100%;}
+
+.custom-dropdown select.active + .form-control-placeholder{top:-1.3rem}
+.custom-dropdown::before {background: #fff; content: ""; position: absolute; top: 0px; right: 0px; width: 20px; height: calc(100% - 1px); z-index: 1;}
+.custom-dropdown::before {cursor: pointer}
+.contact-outr-box .custom-dropdown::before {background: #f3fdff; }
+.select-appearance .custom-dropdown::before, .custom-dropdown.sortQuotesTiles::before {background: #f9f9f9 ; }
+.custom-dropdown .drop-arrow{z-index: 2}
+

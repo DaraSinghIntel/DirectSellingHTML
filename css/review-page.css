@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* Contact CSS Start*/
+.review-contacts-con{padding:1.0rem 0 2.0rem}
+.review-addresses{padding: 0 2.0rem}
+.adrs-panel-outr{max-width: 100%}
+.saas-row{padding-bottom: 1.5rem}
+/* Contact CSS End*/
+
+/* Owl Carousel Modal CSS Starts */
+.owl-carousel{position: relative; padding: 0 0.5rem 0 2.0rem; margin:0 1.5rem;}
+.owl-stage-outer{overflow: hidden;}
+.owl-item{display:inline-block;}
+.owl-stage > .owl-item:first-child{margin-left: -1.5rem;}
+.owl-nav{position: absolute; left: 1.5rem; top:50%; width: 100%; padding-right: 1.5rem; margin-top: -1.2rem;}
+.owl-prev, .owl-next{font-size: .0rem; cursor: pointer}
+.owl-prev{float: left; margin-left: -1.5rem;}
+.owl-next{float: right}
+.owl-prev::before, .owl-next::before {font-size: 2.5rem;}
+.owl-prev:hover::before, .owl-next:hover::before {color: #006da9; cursor: pointer}
+.disabled.owl-prev, .disabled.owl-prev:hover::before, .disabled.owl-next, .disabled.owl-next:hover::before {color: #989898; cursor: default}
+/* Owl Carousel Modal CSS Ends */

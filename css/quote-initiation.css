@@ -1,0 +1,14 @@
+/***  quote initation Page ***/
+.quote-initiation-outr { margin-top:4.0rem;}
+.quote-initiation{ margin:0 auto; padding:.0rem 1.5rem; max-width:110.0rem; height: calc(100% - 65px); display: table; width: 100%}
+.quote-initiation-inner{vertical-align: top; width: 100%; display: table-cell; padding-top: 6.5rem}
+.image > img{ margin: 0.2rem 0; max-width: 30.0rem; }
+
+.quote-initiation .form-group {position: relative;margin-bottom: 4.5rem;}
+.quote-initiantion-form {margin-top: 1.0rem;}
+.quote-initiantion-form .custom-dropdown .drop-arrow{    top:50%;}
+
+@media only screen and (min-width:1501px) {
+.quote-initiation { max-width:120.0rem;}
+.page-level-header h2 {    font-size: 3.0rem;} 
+}

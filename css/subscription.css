@@ -1,0 +1,130 @@
+
+/** Offer Name CSS Start **/
+.panel-list-item.offer-name {overflow: hidden; max-height:15.5rem;}
+/** Offer Name CSS End **/
+/** View More/View Less CSS Start **/
+.showlessbuttons  { float: left; width: 100%;  margin: 1.0rem 0 -0.3rem;}
+.showlessbuttons  .show-more  .seemoreless , .showlessbuttons  .show-less  .seemoreless {color:#fff !important;text-decoration:none;cursor:pointer; padding: 0 0 0 1.6rem;}
+.showlessbuttons:hover  .show-more  .seemoreless , .showlessbuttons:hover  .show-less  .seemoreless, .view-offer-modal:hover {color:#a8eafc !important}
+.showlessbuttons  .show-more  .seemoreless {background: url(../images/twice-arrow-normal-down.svg ) 0 0.4rem  no-repeat;background-size: 0.9rem;}
+.showlessbuttons  .show-more  .seemoreless:hover {background: url(../images/twice-arrow-hover-down.svg)  0 0.4rem  no-repeat;background-size: 0.9rem;}
+.showlessbuttons  .show-less  .seemoreless {background: url(../images/twice-arrow-normal-up.svg) 0 0.4rem no-repeat; background-size: 0.9rem;}
+.showlessbuttons  .show-less  .seemoreless:hover {background: url(../images/twice-arrow-hover-up.svg)  0 0.4rem  no-repeat;background-size: 0.9rem;}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .panel-list-item li input[type=checkbox]:not(old) + label{line-height: 1.9rem; padding-top:0.3rem;}
+}
+@media screen and (min-width:0\0) {
+  .showlessbuttons  .show-more  .seemoreless,
+  .showlessbuttons  .show-more  .seemoreless:hover,
+  .showlessbuttons  .show-less  .seemoreless,
+  .showlessbuttons  .show-less  .seemoreless:hover {background-size:12px 9px;}
+}
+.view-offer-modal  { float: left; width: 100%;  margin: 1.0rem 0 -0.3rem 0; padding-left:2.5rem;}
+.view-offer-modal {color:#fff !important;text-decoration:none;cursor:pointer;}
+#offerName-modal .modal-inner h5{font-size: 1.5rem}
+.offer-name-list{padding: 1rem 0 0}
+.offer-name-list > li{width: 98%; padding: 0 1.5rem 1.2rem 0; float: left; position:relative;}
+
+/** View More/View Less CSS End **/
+/** Table CSS Start **/
+.table-responsive.subscription-table-width .table{ width:300.0rem; max-width: initial}
+
+.endCust-text { max-width:150px; }
+.cust-manager{ max-width:35.0rem; }
+.parter-manager{ max-width:10.0rem; }
+.sales-owner{ max-width:10.0rem;}
+.email-text, .name-text { max-width:12.0rem; }
+.offerName-text { max-width:39.5rem; position:relative; text-overflow: ellipsis;white-space: nowrap;overflow: hidden; display: inline-block; vertical-align:middle;}
+.poNumber-text, .billCust-desc { max-width:17.0rem; }
+
+.renwal-text, .subs-id{position: relative;padding-right: 2.0rem;display: block;min-width: 11.0rem;}
+.date-icon {/* background: url(../images/date-icon.png) no-repeat left top; */min-width: 2rem;min-height: 2.2rem;position: absolute;right: -0.4rem;top:50%;margin-top: -1.0rem;font-size: 2.0rem;}
+.date-icon:hover::before { color:#006da9;}
+.clock-icon { position: absolute; right: -0.2rem; top:50%; margin-top: -1.0rem; font-size: 1.8rem;}
+.green-icon.icon-icon-clock-small-blue::before {color: #669933}
+.orange-icon.icon-icon-clock-small-blue::before {color: #ff7300}
+.red-icon.icon-icon-clock-small-blue::before {color: #cf2131}
+.yellow-icon.icon-icon-clock-small-blue::before {color: #fcda12}
+
+.subs-id{padding-right: 2.0rem;}
+.site-messenger-icon { right:-0.2rem; top:50%; margin-top: -1.0rem; text-decoration: none !important;}
+/*.site-messenger-icon i{font-size:2rem; }*/
+.site-messenger-icon i .path1::before{color: #0dbaec;}
+.site-messenger-icon i:hover .path1::before{color: #006da9;}
+/** More Action CSS Start **/
+.landing-table > tbody > tr > td.action-col {background:#fff;position:relative;/* z-index: 99999 !important; border-right:1px solid #d8d8d8;*/}
+.landing-table > tbody > tr > td.action-col.open { z-index:3 }
+td.action-col.open > .more-actions > .dropdown-menu { display:block }
+.landing-table > tbody > tr:hover > td.action-col { background:#d8f0fd !important; }
+.more-actions {text-align:center;position:relative;height:2.8rem;}
+.more-actions .dropdown-menu.contact-tip {width:23rem;left:0.3rem;top:100%;margin:1rem 0 0; padding:1.0rem; z-index: 99999 !important;}
+.more-actions .dropdown-menu.contact-tip .dropdown-arrow { left:0.8rem; /*background:url(../images/action-links-arrow.png) no-repeat; top:8px; height:23px; width:1.0rem;*/ }
+.flyout-top .more-actions .dropdown-menu.contact-tip { top:auto; bottom:100%; margin:0 0 1rem; box-shadow:0 -0.1rem 0.3rem #999; -moz-box-shadow:0 -.1rem 0.3rem #999; -webkit-box-shadow:0 -.1rem 0.3rem #999 }
+.flyout-top .more-actions .dropdown-menu.contact-tip .dropdown-arrow { background:url(../images/dropdown-arrow-down.png) no-repeat; top:auto; bottom:-1rem; }
+.more-actions .action-links ul li, .manage-links .action-links ul li {display:block;float:none;padding:0.5rem 0 0!important;border:none;font-style: normal;font-weight: 400;position: relative;}
+.more-actions .action-links ul li:first-child { padding-top:0 }
+.more-actions .action-links ul li > a {white-space: normal;font-weight: 400;font-family: 'CiscoSans' !important;position: relative;}
+#more-actions {min-width:1.6rem;min-height:2.7rem;display:inline-block;position: relative; text-decoration: none !important;}
+#more-actions i{position: relative;top:2px;font-size: 2.5rem; line-height: 2rem;}
+#more-actions i.icon-more::before{color: #0dbaec;}
+#more-actions:hover i.icon-more::before{color: #006da9;}
+#more-actions[disabled] i.icon-more::before{color: #ccc;}
+.action-links ul li a:hover, .action-links ul li a:focus { text-decoration:none }
+.dropdown-menu{font-size: 1em}
+.action-links ul { margin:.0rem; padding:.0rem; list-style:none; }
+.action-links ul li:first-child { padding-left:.0rem; }
+.action-links ul li { display:inline-block; float:left; border-left:.1rem solid #d8d8d8; line-height:1.2rem; padding:.0rem 1.0rem; }
+.action-links ul li:first-child { border-left:none; }
+.action-links ul li a { font-size:1em; font-weight: 400; }
+.disabled-links ul li a,  .disabled-links ul li a:hover { color:#999; cursor:default; text-decoration:none !important; }
+.action-links ul li a i{font-size: 1.2rem;margin-right: 0.4rem;/* border: solid 1px red; */position: absolute;left: 0;top: 3px;width: 16px;height: 16px;line-height: 16px;}
+.action-links ul li a i::before{color: #0dbaec;font-size: 1.0rem;line-height: 1.8rem;}
+.action-links ul li a:hover i::before{color: #006da9;}
+.icon-invoice, .icon-usage-link, .icon-subs-detail, .icon-order-detail, .icon-modify-subs, .icon-view-usage { display:block;min-height:2.1rem; min-width:2.1rem; line-height:2.1rem }
+.action-links ul li a i.icon-invoices::before {font-size: 1.8rem;line-height: 1.8rem;}
+.action-links ul li a i.icon-view-usage{line-height: 1.75rem}
+.action-links ul li a i.icon-sub-detail-icon::before {font-size: 1.8rem;line-height: 1.8rem;}
+.action-links ul li a i.icon-order-detail-icon::before {font-size: 1.8rem;line-height: 1.8rem;}
+.action-links ul li a i.icon-modify-subs-icon::before {font-size: 1.2rem;line-height: 1.8rem;}
+
+.icon-invoice, .icon-usage-link, .icon-subs-detail, .icon-order-detail, .icon-modify-subs, .icon-invoice-view,.icon-view-site {display:block;padding-left:22px;min-height:21px;min-width:21px;line-height:21px;background: none !important;}
+.icon-invoice { background:url(../images/icon-invoices.png) no-repeat left 0px; }
+.icon-invoice:hover { background-position:0 -42px }
+.icon-usage-link { background:url(../images/icon-usage.png) no-repeat left 5px; }
+.icon-usage-link:hover { background-position:0 -26px }
+.icon-subs-detail {background:url(../images/subs-detail-icon.png) no-repeat left 1px;}
+.icon-subs-detail:hover { background-position:0 -46px }
+.icon-order-detail { background:url(../images/order-detail-icon.png) no-repeat left 1px; }
+.icon-order-detail:hover { background-position:0 -56px }
+.icon-modify-subs { background:url(../images/modify-subs-icon.png) no-repeat left 3px; }
+.icon-modify-subs:hover { background-position:0 -50px }
+
+td.open > .invoice-actions > .dropdown-menu { display:block }
+.invoice-actions { text-align:center; position:relative; display: inline-block }
+.invoice-actions #more-actions { min-width:16px; min-height:22px; border: none; border-radius: 0;}
+.invoice-actions #more-actions i{font-size: 2.5rem}
+.invoice-actions .dropdown-menu.contact-tip { min-width:160px; right: -6px; top:100%; margin: 10px 0 0; left: auto; padding: 1.0rem 1.0rem 0.7rem 1.0rem}
+.invoice-actions .dropdown-menu.contact-tip .dropdown-arrow {right: auto;left: 5px;}
+.dispute-link-box, .invoice-link-box { position:relative; padding-right:15px;}
+.dispute-link-box .icon-more {}
+.dispute-link-box .invoice-actions ,  .invoice-link-box .invoice-actions {position: absolute; right: 0; top: -3px;}
+.dispute-ids {color: #0dbaec;}
+.flyout-top .invoice-actions .dropdown-menu.contact-tip { top:auto; bottom:100%; margin:0 0 10px; box-shadow:0 -1px 3px #999; -moz-box-shadow:0 -1px 3px #999; -webkit-box-shadow:0 -1px 3px #999 }
+.flyout-top .invoice-actions .dropdown-menu.contact-tip .dropdown-arrow { background:url(../images/dropdown-arrow-down.png) no-repeat; top:auto; bottom:-8px; }
+.invoice-actions .action-links ul li, .manage-links .action-links ul li { display:block; float:none; padding:5px 0 0; border:none;}
+.invoice-actions .action-links ul li:first-child { padding-top:0 }
+.invoice-actions .action-links ul li > a { white-space: normal; line-height:20px; padding-left:2.5rem; position: relative }
+.invoice-actions .action-links ul li a i{top:2px}
+.invoice-actions .action-links ul li a i:before{font-size: 1.6rem; line-height: 1.6rem;}
+.invoice-actions.pss-invoice-actions .dropdown-menu.contact-tip{right:inherit; margin-left: -0.9rem;}
+.invoice-actions.pss-invoice-actions .dropdown-menu.contact-tip .dropdown-arrow{right: inherit;}
+/** More Action CSS End **/
+/** Offer Name Tipsy CSS Start **/
+.offer-popover{z-index: 1}
+.offer-popover:hover{z-index: 2}
+.offer-popover:hover .tipsy.tipsy-w{display: block}
+.custom-tipsy.offer-popover .tipsy-inner{padding:1rem 1.5rem }
+.offer-popover .tipsy-inner > span{font-size: 1.6rem;}
+.offer-popover .tipsy-inner > p{font-size: 1.5rem; margin-bottom: 0;padding-top: 0.5rem;line-height: 2.25rem;}
+/** Offer Name Tipsy CSS End **/
+/** Table CSS End **/

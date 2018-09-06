@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>Cisco</title>
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="css/jquery-ui.css" rel="stylesheet">
+<link href="css/bootstrap-theme.css" rel="stylesheet">
+<link href="jquery.mcdropdown/css/jquery.mcdropdown.min.css" rel="stylesheet">
+<link href="css/subscription.css" rel="stylesheet">
+<!--[if lte IE 9]>
+<link href="css/ie-9.css" rel="stylesheet">
+<![endif]-->
+<link href="css/svg-fonts.css" rel="stylesheet">
+<link href="css/end-customer-style.css" rel="stylesheet">
+<link href="css/quotes.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/additional-methods.min.js"></script>
+<script src="js/jquery.nicescroll.min.js"></script>
+<!--<script src="js/autocomplete.js"></script>-->
+<script src="jquery.mcdropdown/lib/jquery.mcdropdown.js"></script>
+<script src="js/jquery.tipsy.js"></script>
+<script src="js/jquery.stickytableheaders.min.js"></script>
+<script src="js/script.js"></script>
+</head>
+<body>
+<div class="blankStickyDiv" style="height: 0px;"></div>
+<div class="row margin0 marginB10">
+<div class="col-sm-12 transaction-back-link">
+    <div class="back-link sales-view "> <a href="transaction-manager.html"> <i class="icon-utility-14 back-icon"></i> <span>Transaction Manager</span> </a> </div>
+  </div>
+
+</div>
+<div class="row quote-tile-row transaction-tile-box box-shadow-xl">
+  
+  <div class="col-sm-12 quote-tile-outr parent-tile no-radius transaction-tile-outr">
+    <div class="row quote-info-row">
+      <div class="col-sm-8">
+        <div class="row">
+          <div class="col-sm-12 quote-info-panel">
+            <h2 class="quote-ttl">Change Bill to Customer</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="row">
+          <div class="col-sm-12 btn-box internal-transaction-manager-btn-panel">
+            <div class="quote-btn-panel pull-right">
+              <input class="btn btn-primary pull-right marginL10 marginB0" value="Export Transaction" type="button" data-toggle="modal" data-target="#modifySubscription">
+              <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row quote-sumry-row no-radius">
+      <div class="col-sm-12">
+        <div class="row">
+          <div class="col-sm-3">
+            <label class="quote-label">Transaction ID</label>
+            <div class="quote-value">Trans928618</div>
+          </div>
+          <div class="col-sm-3">
+            <label class="quote-label">Transaction Status</label>
+            <div class="quote-value"><span class="declineStatus">In Progress</span></div>
+          </div>
+          <div class="col-sm-3">
+            <label class="quote-label">Submitted on</label>
+            <div class="quote-value">JAN 12,2018 16:34:34 PM</div>
+          </div>
+          <div class="col-sm-3">
+            <label class="quote-label">Initiated By</label>
+            <div class="quote-value">stsuei</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- My Invoices Starts -->
+<div class="container-fluid item-table-wrapper">
+  <!-- Invoice Table Start -->
+  <div class="box-shadow-xl ec-flow">
+    <div class="table-responsive">
+      <table class="table marginB0 endCust-item-table transaction-table subs-table table-flyout middle-align" width="100%">
+        <thead>
+          <tr>
+            <th width="2%"></th>
+            <th class="text-left" width="20%">Subscription ID</th>
+            <th class="text-left" width="25%">End Customer</th>
+            <th class="text-left" width="19%">Offer Name</th>
+            <th class="text-left" width="15%">Status</th>
+            <th class="text-left" width="15%">Last Updated Time</th>
+            <th class="text-left" width="4%"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td><a href="javascript:void(0);" >SubRef100211</a></td>
+            <td>havida-it Gmbh</td>
+            <td>CIS-PLATFORM</td>
+            <td><span class="activeStatus">Completed</span></td>
+            <td>Jan 12, 2018 16:34:34 PM</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><a href="javascript:void(0);" >SubRef100211</a></td>
+            <td>havida-it Gmbh</td>
+            <td>CIS-PLATFORM</td>
+            <td ><span class="expiredStatus">Failure</span></td>
+            <td>Jan 12, 2018 16:34:34 PM</td>
+            <td><i class="expand icon-arrow-down"></i></td>
+          </tr>
+          <tr class="failedRow">
+            <td class=""></td>
+            <td class="" colspan="5"><div class="failed-bid">
+                <h3>BID Failed During <span class="red-text">Booking Process</span></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div></td>
+            <td class=""></td>
+          </tr>
+         <tr>
+            <td></td>
+            <td><a href="javascript:void(0);" >SubRef100211</a></td>
+            <td>havida-it Gmbh</td>
+            <td>CIS-PLATFORM</td>
+            <td><span class="declineStatus">Partially Completed</span></td>
+            <td>Jan 12, 2018 16:34:34 PM</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><a href="javascript:void(0);" >SubRef100211</a></td>
+            <td>havida-it Gmbh</td>
+            <td>CIS-PLATFORM</td>
+            <td><span class="declineStatus">In Progress</span></td>
+            <td>Jan 12, 2018 16:34:34 PM</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><a href="javascript:void(0);" >SubRef100211</a></td>
+            <td>havida-it Gmbh</td>
+            <td>CIS-PLATFORM</td>
+            <td ><span class="expiredStatus">Failure</span></td>
+            <td>Jan 12, 2018 16:34:34 PM</td>
+            <td><i class="expand icon-arrow-down"></i></td>
+          </tr>
+          <tr class="failedRow">
+            <td class=""></td>
+            <td class="" colspan="5"><div class="failed-bid">
+                <h3>BID Failed During <span class="red-text">Booking Process</span></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div></td>
+            <td class=""></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><a href="javascript:void(0);" >SubRef100211</a></td>
+            <td>havida-it Gmbh</td>
+            <td>CIS-PLATFORM</td>
+            <td><span class="activeStatus">Completed</span></td>
+            <td>Jan 12, 2018 16:34:34 PM</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><a href="javascript:void(0);" >SubRef100211</a></td>
+            <td>havida-it Gmbh</td>
+            <td>CIS-PLATFORM</td>
+            <td><span class="activeStatus">Completed</span></td>
+            <td>Jan 12, 2018 16:34:34 PM</td>
+            <td></td>
+          </tr>
+         <tr>
+            <td></td>
+            <td><a href="javascript:void(0);" >SubRef100211</a></td>
+            <td>havida-it Gmbh</td>
+            <td>CIS-PLATFORM</td>
+            <td><span class="activeStatus">Completed</span></td>
+            <td>Jan 12, 2018 16:34:34 PM</td>
+            <td></td>
+          </tr>
+        </tbody>
+        <!-- Table Body end with Data -->
+        <tfoot>
+        </tfoot>
+      </table>
+    </div>
+    <div class="row pagination-bar table-pagination marginB0">
+      <div class="col-sm-2"> <span class="view">View</span>
+        <div class="pagination-dropdown">
+          <ul>
+            <li class="dropdown" uib-dropdown="" on-toggle="toggled(open)" style=""> <a uib-dropdown-toggle="" href="javascript:void(0);" class="dropdown-toggle" id="user-profile-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon-user"></i>10<span class="icon-tiny-down-arrow"></span></a>
+              <div uib-dropdown-menu="" aria-labelledby="user-profile-dropdown" class="dropdown-menu user-drpdown">
+                <ul>
+                  <li>10</li>
+                  <li>20</li>
+                  <li>50</li>
+                  <li>100</li>
+                  <li>200</li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <span class="per-page">per page</span> </div>
+      <div class="col-sm-8 text-center">
+        <ul class="pagination">
+          <li><a class="icon-double-arrow-left"> </a></li>
+          <li><a class="icon-arrow-left"> </a></li>
+          <li>
+            <ul class="page-count">
+              <li class="selected">1</li>
+              <li>2</li>
+              <li>3</li>
+              <li>4</li>
+              <li>5</li>
+              <li>6</li>
+              <li class="dropdown pagination-dropdown" uib-dropdown="" on-toggle="toggled(open)" style=""> <a uib-dropdown-toggle="" href="javascript:void(0);" class="dropdown-toggle" id="page-numbers" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">...</a>
+                <div uib-dropdown-menu="" aria-labelledby="page-numbers" class="dropdown-menu user-drpdown">
+                  <ul>
+                    <li>7</li>
+                    <li>8</li>
+                    <li>9</li>
+                    <li>10</li>
+                    <li>11</li>
+                    <li>12</li>
+                    <li>13</li>
+                    <li>14</li>
+                    <li>15</li>
+                    <li>16</li>
+                    <li>17</li>
+                    <li>18</li>
+                    <li>19</li>
+                    <li>20</li>
+                    <li>21</li>
+                    <li>22</li>
+                    <li>23</li>
+                    <li>24</li>
+                    <li>25</li>
+                    <li>26</li>
+                    <li>27</li>
+                    <li>28</li>
+                    <li>29</li>
+                    <li>30</li>
+                    <li>31</li>
+                    <li>32</li>
+                    <li>33</li>
+                    <li>34</li>
+                    <li>35</li>
+                    <li>36</li>
+                    <li>37</li>
+                    <li>38</li>
+                    <li>39</li>
+                    <li>40</li>
+                    <li>41</li>
+                    <li>42</li>
+                    <li>43</li>
+                    <li>44</li>
+                    <li>45</li>
+                    <li>46</li>
+                    <li>47</li>
+                    <li>48</li>
+                    <li>49</li>
+                  </ul>
+                </div>
+              </li>
+              <li>50</li>
+            </ul>
+          </li>
+          <li><a class="icon-arrow-right"> </a></li>
+          <li><a class="icon-double-arrow-right"> </a></li>
+        </ul>
+      </div>
+      <div class="col-sm-2 ">
+        <div class="pull-right"> <span class="result">Displaying</span> <span class="active-page">1-1</span> <span>of</span> <span class="total-pages">3</span> </div>
+      </div>
+    </div>
+    <!-- Invoice Table End -->
+  </div>
+  <div class="clearfix"></div>
+  <div class="row new-billing-box-outr">
+    <div class="col-sm-12 new-billing-box">
+      <div class="col-sm-12 adrs-header"><span class="addressHeading">New Billing ID</span> </div>
+      <ul class=" transaction-adrs-info mass-adrs-info mass-billing-id contact-info-list additional-contact-list" style="">
+        <li>
+          <div class="contact-bar adrs-bar">
+            <div class="col-sm-12 adrs-info mass-billing-adrs">
+              <div class="col-xs-2 user-icon"> <img class="user-thumb img-circle" src="images/ship-adrs-icon.svg"> </div>
+              <div class="col-xs-10 user-bio"> <span class="user-name ">Ruckus Pizza Inc.</span> </div>
+            </div>
+          </div>
+          <div class="contact-bar adrs-bar">
+            <div class="col-sm-12 adrs-info">
+              <div class="col-xs-2 user-icon"></div>
+              <div class="col-xs-10 user-bio">
+                <div class="address-text">
+                  <p>601, D-Wing, 6th Floor ,<br>
+					 Lotus Corporate Park, Ram Mandir Lane Near Jai Coach Junction, B/H Raheja Titanium Dvad_30, <br>
+					Western Express Highway, Goregaon Eas Mumbai, <br>
+					MH 400063 INDIA</p>
+                </div>
+              </div>
+            </div>
+            <div class="primary-phone-number bill-detail text-ellipsis"> <span>
+              <label>BID ID</label>
+              <p>76892143</p>
+              </span> </div>
+            <div class="primary-phone-number bill-detail text-ellipsis"> <span>
+              <label>Customer ID</label>
+              <p>76892143</p>
+              </span> </div>
+            <div class="primary-fax bill-detail text-ellipsis"> <span>
+              <label>Operating Unit</label>
+              <p class="text-ellipsis">Cisco Netherlands Operating Unit</p>
+              </span> </div>
+          </div>
+        </li>
+      </ul>
+      <div class="clearfix"></div>
+      <div class="row margin0 transaction-contactAddOuterDiv">
+        <div class="col-sm-4 mass-billingCt-outer contactOuterBox paddingL0">
+          <div class="adrs-panel-outr mass-contact-add" style="">
+            <div class="disabled-overlay"></div>
+            <div class="row adrs-bio-row">
+              <div class="col-sm-12 adrs-info">
+                <div class="col-xs-2 user-icon"> <img class="user-thumb img-circle" src="images/user-img.svg"> </div>
+                <div class="col-xs-10 user-bio"> <span class="user-name text-ellipsis">Parthasarathy Krishnaswamy</span>
+                <span class="contact-text">Billing Contact</span>
+                  <div class="clearfix"></div>
+                  <div class="clearfix"></div>
+                  <ul class="org-info">
+                    <li class="country"><i class="icon-Phone"></i> (402) 737-4932 </li>
+                    <li class="email"><i class="icon-print"></i> (402) 737-4932</li>
+                    <li class="contact"><i class="icon-user-email"></i><span class="text-ellipsis mail-ellipsis"> montgomeryRemingtonRemingtonr@apple.com</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 mass-businessCt-outer contactOuterBox">
+          <div class="adrs-panel-outr mass-contact-add" style="">
+            <div class="disabled-overlay"></div>
+            <div class="row adrs-bio-row">
+              <div class="col-sm-12 adrs-info">
+                <div class="col-xs-2 user-icon"> <img class="user-thumb img-circle" src="images/user-img.svg"> </div>
+                <div class="col-xs-10 user-bio"> <span class="user-name text-ellipsis">Jane Smith</span>
+                <span class="contact-text">Business Contact</span>
+                  <div class="clearfix"></div>
+                  <div class="clearfix"></div>
+                  <ul class="org-info">
+                    <li class="country"><i class="icon-Phone"></i> (402) 737-4932 </li>
+                    <li class="email"><i class="icon-print"></i> (402) 737-4932</li>
+                    <li class="contact"><i class="icon-user-email"></i><span class="text-ellipsis mail-ellipsis"> montgomeryRemingtonRemingtonr@apple.com</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 mass-suppprtCt-outer contactOuterBox">
+          <div class="adrs-panel-outr mass-contact-add" style="">
+            <div class="disabled-overlay"></div>
+            <div class="row adrs-bio-row">
+              <div class="col-sm-12 adrs-info">
+                <div class="col-xs-2 user-icon"> <img class="user-thumb img-circle" src="images/user-img.svg"> </div>
+                <div class="col-xs-10 user-bio"> <span class="user-name text-ellipsis">Jane Smith</span>
+                <span class="contact-text">Support Contact</span>
+                  <div class="clearfix"></div>
+                  <div class="clearfix"></div>
+                  <ul class="org-info">
+                    <li class="country"><i class="icon-Phone"></i> (402) 737-4932 </li>
+                    <li class="email"><i class="icon-print"></i> (402) 737-4932</li>
+                    <li class="contact"><i class="icon-user-email"></i><span class="text-ellipsis mail-ellipsis"> montgomeryRemingtonRemingtonr@apple.com</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row margin0 transaction-reason">
+        <div class="col-sm-12 paddingL0"> <span class="adrs-header paddingL0 borderB0 paddingB0">Reason For Change</span>
+          <div class="clearfix"></div>
+          <p class="paddingT5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. <br>
+            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <ul class="transaction-adrs-info mass-adrs-info mass-billing-id contact-info-list additional-contact-list">
+  <li>
+    <div class="col-sm-12 adrs-header"><span class="addressHeading">Old Billing ID</span> </div>
+    <div class="contact-bar adrs-bar">
+      <div class="col-sm-12 adrs-info mass-billing-adrs">
+        <div class="col-xs-2 user-icon"> <img class="user-thumb img-circle" src="images/ship-adrs-icon.svg"> </div>
+        <div class="col-xs-10 user-bio"> <span class="user-name ">Ruckus Pizza Inc.</span> </div>
+      </div>
+    </div>
+    <div class="contact-bar adrs-bar">
+      <div class="col-sm-12 adrs-info">
+        <div class="col-xs-2 user-icon"></div>
+        <div class="col-xs-10 user-bio">
+          <div class="address-text">
+            <p>116 inverness drive east suite 375 <br>
+              C/O Castle Pines <span>San Jose CA, United States</span></p>
+          </div>
+        </div>
+      </div>
+      <div class="primary-phone-number bill-detail text-ellipsis"> <span>
+        <label>BID ID</label>
+        <p>76892143</p>
+        </span> </div>
+      <div class="primary-phone-number bill-detail text-ellipsis"> <span>
+        <label>Customer ID</label>
+        <p>76892143</p>
+        </span> </div>
+      <div class="primary-fax bill-detail text-ellipsis"> <span>
+        <label>Operating Unit</label>
+        <p class="text-ellipsis">Cisco Netherlands Operating Unit</p>
+        </span> </div>
+   </div>
+  </li>
+</ul>
+
+
+<div class="clearfix"></div>
+<footer id="fw-mb-w1" class="siteFooterArea container-fluid __web-inspector-hide-shortcut__">
+  <section id="framework-footer">
+    <div id="footer-nav"> <a href="javascript:void(0);">Contacts</a> | <a href="javascript:void(0);"> <i class="feedback_img"></i> Feedback</a> | <a href="javascript:void(0);">Help</a> | <a href="javascript:void(0);">Site Map</a> </div>
+    <div id="footer-legal"> | <a href="javascript:void(0);">Terms &amp; Conditions</a> | <a href="javascript:void(0);">Privacy Statement</a> | <a href="javascript:void(0);">Cookie Policy</a> | <a href="javascript:void(0);">Trademarks</a> </div>
+  </section>
+  <!-- /FooterArea -->
+</footer>
+</div>
+<!-- My Invoices End -->
+<script>
+    $(document).ready(function(){ 	
+      $("#category").mcDropdown("#categorymenu");
+	  $(".additional-contact-list, .adrs-panel-outr.mass-contact-add").show();
+    });
+  </script>
+</body>
+</html>

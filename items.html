@@ -1,0 +1,1448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>Cisco</title>
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="css/jquery-ui.css" rel="stylesheet">
+<link href="css/bootstrap-theme.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<!--[if lte IE 9]>
+<link href="css/ie-9.css" rel="stylesheet">
+<![endif]-->
+<link href="css/svg-fonts.css" rel="stylesheet">
+<link href="css/item-page.css" rel="stylesheet">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/additional-methods.min.js"></script>
+<script src="js/jquery.nicescroll.min.js"></script>
+<script src="js/autocomplete.js"></script>
+<script src="js/jquery.tipsy.js"></script>
+<script src="js/jquery.stickytableheaders.min.js"></script>
+<script src="js/script.js"></script>
+</head>
+<body>
+<!-- Header Panel Starts -->
+<header class="ccw-header ">
+  <div class="top-header no-shadow  container-fluid"> <a href="javascript:void(0);" class="cisco-logo"><img src="./images/cisco-logo.svg" alt="cisco"></a>
+    <div class="app-title"><small>Cisco Commerce</small><big class="ng-binding">Express</big></div>
+    <div class="user-info">
+      <ul class="user-links">
+        <li><a href="javascript:void(0);"><i class="icon-icon-search"></i></a>
+        <li class="dropdown" uib-dropdown="" on-toggle="toggled(open)" style=""> <a uib-dropdown-toggle="" href="javascript:void(0);" class="dropdown-toggle" id="user-profile-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon-user"></i>Jason&nbsp;&nbsp;<span class="icon-arrow-down"></span></a>
+          <ul uib-dropdown-menu="" aria-labelledby="user-profile-dropdown" class="dropdown-menu user-drpdown">
+            <span class="dropdown-arrow"></span>
+            <li><a href="my-profile.html">My Account and Preferences</a></li>
+            <li class="divider"></li>
+            <li><a href="javascript:void(0);">Logout</a></li>
+          </ul>
+        </li>
+        <li class="dropdown tools" ><a data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" class="dropdown-toggle " href="javascript:void(0);"><i  class="icon-link-quote"></i></a>
+        <div class="dropdown-menu list-group quick-links" aria-labelledby="quickLinks">
+                <div class="row">
+                  <div class="col-sm-4">
+                    <ul class="list-group">
+                      <li class="list-group-item-heading">
+                        <h4 class="list-group-item-heading">Related Tools</h4>
+                      </li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="searchID">Basic Search</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="configurationsID">Configurations</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="priceCatalog">List Price Catalog</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="incentivesID">Incentives</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="promotionsID">Promotions</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="productUpgrade">Product Upgrade Tool (PUT)</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="returnsRMA">Returns RMA Tool</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="shipmentRouting">Shipment Routing Configurator</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="fileManager">CICS File Manager</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="referenceTool">CICS Reference Tool</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="ciscoSACSS">Cisco SACSS</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="printShipping">Print Shipping Documents</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="mySavedSearches">My Saved Searches</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="shippingExhibit">Shipping Exhibit</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="leadTimesTool">Lead Times Tool</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="ciscoFeature">Cisco Feature Navigator</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="serviceAvailability">Service Availability Matrix (SAM)</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="historicalData">Historical Data Search</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-4">
+                    <ul class="list-group">
+                      <li class="list-group-item-heading">
+                        <h4 class="list-group-item-heading">Financing Options</h4>
+                      </li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="capitalFinance">Cisco Capital Finance</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="financialCalculator">Financial Calculator</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="financeSolutions">Finance Solutions</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="contactCisco">Contact Cisco Capital</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="certifiedRefurbished">Cisco Certified Refurbished Equipment</a></li>
+                    </ul>
+                    <ul class="list-group">
+                      <li class="list-group-item-heading">
+                        <h4 class="list-group-item-heading">Products and Services Info</h4>
+                      </li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="findProductSupports">Find Product Supports Service (SMARTnet)</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="EOSProducts">EOL/EOS Products</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="productQuick">Product Quick Reference Guide</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="productApprovals">Product Approvals</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="visioStencils">Visio Stencils</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="designZone">Design Zone</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="productLaunch">Product Launch RSS</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="warrantyInformation">Warranty Information</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-4">
+                    <ul class="list-group">
+                      <li>
+                        <h4 class="list-group-item-heading">Ordering Tools</h4>
+                      </li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="archiveTool">Archive Tool</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="cstomerSpecifics">Customer Specifics</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="dealcheckpoint">Deal Checkpoint</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="EDMS-ID">EDMS</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="plannerContacts">EMCO (MFG Planner Contacts)</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="EMCO-INBIZ">EMCO INBIZ</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="iFAX-ID">iFAX</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="Oracle-ID">Oracle</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="SFDC/CRM-ID">SFDC/CRM</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="undispatchTool">Undispatch Tool</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" kdfapp="menubar" kdfpage="workspace" kdfid="connectDots">Connect Dots</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        </li>
+        <li class="link-workspace dropdown"><a class="dropdown-toggle"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" href="javascript:void(0);"><span class="icon-dice">
+                
+                </span></a>
+         <div class="app-menu-box dropdown-menu">
+                <div class="clearfix"></div>
+                <ul aria-labelledby="dropdownMenu1" class=" dd-right-align" >
+                  <li class="first-child active"><a class="commerce-workspace" href="javascript:void(0);"><i></i><span>Cisco Commerce</span></a><i class="selected-Arrow"></i></li>
+                  <li><a class="onboarding" href="javascript:void(0);"><i></i><span>Onboarding &amp; Administration</span></a></li>
+                  <li><a class="software-workspace" href="javascript:void(0)" ><i></i><span>Cisco Software Workspace</span></a></li>
+                  <li><a class="sales-connect" href="javascript:void(0)" ><i></i><span>Cisco SalesConnect</span></a></li>
+                </ul>
+              </div>
+        </li>
+      </ul>
+    </div>
+    <div class="ccw-search">
+      <!-- /ccwSearch -->
+      <div class="searchCtgryArea">
+        <div class="searchCtgryBtn">
+          <!-- /searchCtgryBtn -->
+          <div id="allCtgry" class="globalSearchIcon" kdfapp="menubar" kdfpage="WORKSPACE" kdfid="3800"></div>
+          <span class="inner_text"></span> </div>
+        <div class="searchCtgryBox">
+          <ul class="ctegoryBox">
+            <li data-cat="All" data-icon="allCtgry"><a class="allCtgry" href="javascript:void(0);" title="All" kdfapp="menubar" kdfpage="WORKSPACE" kdfid="3801"><i></i><span>All</span></a></li>
+            <li data-cat="Estimates" data-icon="estimateCtgry"> <a class="estimateCtgry" href="javascript:void(0);" title="Estimates" kdfapp="menubar" kdfpage="WORKSPACE" kdfid="3802"><i></i><span>Estimates</span></a></li>
+            <li data-cat="Quotes" data-icon="dealCtgry"> <a class="dealCtgry" href="javascript:void(0);" title="Quotes" kdfapp="menubar" kdfpage="WORKSPACE" kdfid="3804"><i></i><span>Quotes</span></a></li>
+            <li data-cat="Orders" data-icon="ordersCtgry"> <a class="ordersCtgry" href="javascript:void(0);" title="Orders" kdfapp="menubar" kdfpage="WORKSPACE" kdfid="3805"><i></i><span>Orders</span></a></li>
+            <li data-cat="Software Subscriptions" data-icon="swSubCtgry"> <a class="swSubCtgry" href="javascript:void(0);" title="Software Subscriptions" kdfapp="menubar" kdfpage="WORKSPACE" kdfid="3806"><i></i><span>Software Subscriptions</span></a></li>
+            <li data-cat="Cloud/SaaS Subscriptions" data-icon="subsCtgry"> <a class="subsCtgry" href="javascript:void(0);" title="Cloud/SaaS Subscriptions" kdfapp="menubar" kdfpage="WORKSPACE" kdfid="3800"><i></i><span>Cloud/SaaS Subscriptions</span></a></li>
+            <li data-cat="Returns" data-icon="retCtgry"> <a class="retCtgry" href="javascript:void(0);" title="Returns" kdfapp="menubar" kdfpage="WORKSPACE" kdfid="3808"><i></i><span>Returns</span></a></li>
+            <li data-cat="Invoices" data-icon="invoices"> <a class="invoices" href="javascript:void(0);" title="Invoices" kdfapp="menubar" kdfpage="WORKSPACE" kdfid="3809"><i></i><span>Invoices</span></a></li>
+            <li data-cat="Disputes" data-icon="disputes"> <a class="disputes" href="javascript:void(0);" title="Disputes" kdfapp="menubar" kdfpage="WORKSPACE" kdfid="3810"><i></i><span>Disputes</span></a></li>
+            <li data-cat="Subscriptions" class="marginT5 skyBlueBg"> <a href="javascript:void(0);" title="Saved Searches" kdfapp="menubar" kdfpage="WORKSPACE" kdfid="3811"><strong>Saved Searches</strong></a></li>
+            <li> <a href="javascript:void(0);" title="Saved Search 1">Saved Search 1 </a></li>
+            <li> <a href="javascript:void(0);" title="Saved Search 2">Saved Search 2</a></li>
+            <li> <a href="javascript:void(0);" title="Saved Search 3">Saved Search 3 </a></li>
+            <li class="seeMore"> <a href="javascript:void(0);" title="See more" kdfapp="menubar" kdfpage="WORKSPACE" kdfid="3812"><strong>See more</strong></a></li>
+          </ul>
+          <!-- /searchCtgryBox -->
+        </div>
+        <!-- /searchCtgryArea -->
+      </div>
+      <div class="ctgrySearchBox">
+        <input type="text" id="searchSugesstion" placeholder="Search All..." kdfid="searchSugesstion" kdfapp="buildnprice" kdfpage="comman">
+        <!-- /ctgrySearchBox -->
+      </div>
+      <div class="ctgrybtnBox">
+        <input type="submit" value="Search" title="Search" class="ctgrybtn" kdfid="ctgrybtnBox" kdfapp="buildnprice" kdfpage="comman">
+      </div>
+      <div class="clearfix"></div>
+      <!-- /ccwSearch -->
+    </div>
+    
+    <div class="clear"></div>
+  </div>
+</header>
+<!-- Header Panel Ends -->
+
+
+<!-- Product Information  Panel  Starts -->
+<div class="product-outer-panel container-fluid">
+   <div class="row sumary-row">
+      <div class="col-sm-12 sumary-row-internal">
+      <div class="row">
+        <div class="col-sm-8 quote-info">
+              <label class="quote-ttl">Quote</label>
+              <div class="quote-name">Webex for Ruckus Pizza <i class="icon-edit white tipsyTop" title="Edit"></i></div>
+              <div class="quote-id-box">
+                  <label class="quote-ttl">Quote ID</label>
+                  <div class="quote-name">673451</div>
+              </div>
+          </div>
+          
+          <div class="col-sm-4 globalprice-info">
+            <ul class="tiny-utility-bar">
+              <li class="clone"><a href="javascript:void(0);" data-toggle="modal" data-target="#cloneQuote"><i class="clone-icon tipsyTop" title="Clone Quote"></i></a></li>
+              <li class="export"><a href="javascript:void(0);"><i class="icon-export tipsyTop" title="Export"></i></a></li>
+              <li class="print"><a href="javascript:void(0);" data-toggle="modal" data-target="#shareCustomer"><i class="icon-share tipsyTop" title="Share with Team"></i></a></li>
+              <li class="export"><a href="javascript:void(0);" data-toggle="modal" data-target="#deleteQuote"><i class="icon-delete tipsyTop" title="Delete"></i></a></li>
+            </ul>	
+            <div class="global-price">Global Price List in US Availability (USD)</div>
+          </div>
+      </div>
+      </div>
+       
+    <div class="row margin0">
+    	<div class="col-sm-12 page-top-header paddingL0 paddingR0">
+          <div class="col-sm-12">
+            <div class="page-head-row">
+              <div class="row">
+                <div class="col-sm-7">
+                  <div class="row">
+                    <div class="col-sm-4 editOuter textEditable">
+                      <label class="sumry-label">Deal ID</label>
+                      <div class="nonEditable">
+                          <div class="sumry-value updatedTxt"><span class="text-ellipsis">71962028</span> <i class="icon-edit white tipsyTop editFilledField" title="Edit"></i></div>
+                      </div>
+                       <!-- Editable-field Start -->
+                        <div class="editable-fields">
+                        	<div class="form-group">
+                              <input type="text" value="71962028" class="form-control" id="dealsID" required="" aria-invalid="false">
+                           </div>
+                           <div class="clearfix"></div>
+                        </div>
+                       <!-- Editable-field Ends -->
+                    </div>
+                    <div class="col-sm-4 editOuter textEditable">
+                      <label class="sumry-label">Customer Name <span class="icwRequired">*</span></label>
+                      <div class="nonEditable">
+                        <div class="sumry-value updatedTxt"><span class="text-ellipsis">Ruckus Pizza</span> <i class="icon-edit white tipsyTop editFilledField" title="Edit"></i></div>
+                      </div>
+                      <!-- Editable-field Start -->
+                        <div class="editable-fields">
+                        	<div class="form-group">
+                              <input type="text" value="Ruckus Pizza" class="form-control" id="custmerName" required="" aria-invalid="false">
+                           </div>
+                           <div class="clearfix"></div>
+                        </div>
+                       <!-- Editable-field Ends -->
+                    </div>
+                    <div class="col-sm-4">
+                      <label class="sumry-label">Created By</label>
+                      <div class="sumry-value">Jason Doe</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-5">
+                  <div class="row">
+                    <div class="col-sm-6 editOuter textEditable">
+                      <label class="sumry-label">Service to Country <span class="icwRequired">*</span></label>
+                      <div class="nonEditable">
+                        <div class="sumry-value updatedTxt"><span class="text-ellipsis">United States</span> <i class="icon-edit white tipsyTop editFilledField" title="Edit"></i></div>
+                      </div>
+                      <!-- Editable-field Start -->
+                        <div class="editable-fields">
+                        	<div class="form-group">
+                                <div class="custom-dropdown select-country quoteCountrySelect">
+                                  <select name="country" required class="c-country headerCountryChange">
+                                    <option label="" value="" selected="selected" disabled hidden></option>
+                                    <option label="AFGHANISTAN" value="AF">AFGHANISTAN</option>
+                                    <option label="ALBANIA" value="AL">ALBANIA</option>
+                                    <option label="ALGERIA" value="DZ">ALGERIA</option>
+                                    <option label="AMERICAN SAMOA" value="AS">AMERICAN SAMOA</option>
+                                    <option label="ANDORRA" value="AD">ANDORRA</option>
+                                    <option label="ANGOLA" value="AO">ANGOLA</option>
+                                    <option label="ANGUILLA" value="AI">ANGUILLA</option>
+                                    <option label="ANTARCTICA" value="AQ">ANTARCTICA</option>
+                                    <option label="ANTIGUA AND BARBUDA" value="AG">ANTIGUA AND BARBUDA</option>
+                                    <option label="ARGENTINA" value="AR">ARGENTINA</option>
+                                    <option label="ARMENIA" value="AM">ARMENIA</option>
+                                    <option label="ARUBA" value="AW">ARUBA</option>
+                                    <option label="AUSTRALIA" value="AU">AUSTRALIA</option>
+                                    <option label="AUSTRIA" value="AT">AUSTRIA</option>
+                                    <option label="AZERBAIJAN" value="AZ">AZERBAIJAN</option>
+                                    <option label="BAHAMAS" value="BS">BAHAMAS</option>
+                                    <option label="BAHRAIN" value="BH">BAHRAIN</option>
+                                    <option label="BANGLADESH" value="BD">BANGLADESH</option>
+                                    <option label="BARBADOS" value="BB">BARBADOS</option>
+                                    <option label="BELARUS" value="BY">BELARUS</option>
+                                    <option label="BELGIUM" value="BE">BELGIUM</option>
+                                    <option label="BELIZE" value="BZ">BELIZE</option>
+                                    <option label="BENIN" value="BJ">BENIN</option>
+                                    <option label="BERMUDA" value="BM">BERMUDA</option>
+                                    <option label="BHUTAN" value="BT">BHUTAN</option>
+                                    <option label="BOLIVIA" value="BO">BOLIVIA</option>
+                                    <option label="BOSNIA AND HERZEGOVINA" value="BA">BOSNIA AND HERZEGOVINA</option>
+                                    <option label="BOTSWANA" value="BW">BOTSWANA</option>
+                                    <option label="BOUVET ISLAND" value="BV">BOUVET ISLAND</option>
+                                    <option label="BRAZIL" value="BR">BRAZIL</option>
+                                    <option label="BRITISH INDIAN OCEAN TERRITORY" value="IO">BRITISH INDIAN OCEAN TERRITORY</option>
+                                    <option label="BRUNEI DARUSSALAM" value="BN">BRUNEI DARUSSALAM</option>
+                                    <option label="BULGARIA" value="BG">BULGARIA</option>
+                                    <option label="BURKINA FASO" value="BF">BURKINA FASO</option>
+                                    <option label="BURUNDI" value="BI">BURUNDI</option>
+                                    <option label="CAMBODIA" value="KH">CAMBODIA</option>
+                                    <option label="CAMEROON" value="CM">CAMEROON</option>
+                                    <option label="CANADA" value="CA">CANADA</option>
+                                    <option label="CAPE VERDE" value="CV">CAPE VERDE</option>
+                                    <option label="CAYMAN ISLANDS" value="KY">CAYMAN ISLANDS</option>
+                                    <option label="CENTRAL AFRICAN REPUBLIC" value="CF">CENTRAL AFRICAN REPUBLIC</option>
+                                    <option label="CHAD" value="TD">CHAD</option>
+                                    <option label="CHILE" value="CL">CHILE</option>
+                                    <option label="CHINA" value="CN">CHINA</option>
+                                    <option label="CHRISTMAS ISLAND" value="CX">CHRISTMAS ISLAND</option>
+                                    <option label="COCOS (KEELING) ISLANDS" value="CC">COCOS (KEELING) ISLANDS</option>
+                                    <option label="COLOMBIA" value="CO">COLOMBIA</option>
+                                    <option label="COMOROS" value="KM">COMOROS</option>
+                                    <option label="CONGO" value="CG">CONGO</option>
+                                    <option label="CONGO, THE DEMOCRATIC REPUBLIC OF THE" value="CD">CONGO, THE DEMOCRATIC REPUBLIC OF THE</option>
+                                    <option label="COOK ISLANDS" value="CK">COOK ISLANDS</option>
+                                    <option label="COSTA RICA" value="CR">COSTA RICA</option>
+                                    <option label="COTE D'IVOIRE" value="CI">COTE D'IVOIRE</option>
+                                    <option label="CROATIA" value="HR">CROATIA</option>
+                                    <option label="CYPRUS" value="CY">CYPRUS</option>
+                                    <option label="CZECH REPUBLIC" value="CZ">CZECH REPUBLIC</option>
+                                    <option label="DENMARK" value="DK">DENMARK</option>
+                                    <option label="DJIBOUTI" value="DJ">DJIBOUTI</option>
+                                    <option label="DOMINICA" value="DM">DOMINICA</option>
+                                    <option label="DOMINICAN REPUBLIC" value="DO">DOMINICAN REPUBLIC</option>
+                                    <option label="ECUADOR" value="EC">ECUADOR</option>
+                                    <option label="EGYPT" value="EG">EGYPT</option>
+                                    <option label="EL SALVADOR" value="SV">EL SALVADOR</option>
+                                    <option label="EQUATORIAL GUINEA" value="GQ">EQUATORIAL GUINEA</option>
+                                    <option label="ESTONIA" value="EE">ESTONIA</option>
+                                    <option label="ETHIOPIA" value="ET">ETHIOPIA</option>
+                                    <option label="FALKLAND ISLANDS (MALVINAS)" value="FK">FALKLAND ISLANDS (MALVINAS)</option>
+                                    <option label="FAROE ISLANDS" value="FO">FAROE ISLANDS</option>
+                                    <option label="FIJI" value="FJ">FIJI</option>
+                                    <option label="FINLAND" value="FI">FINLAND</option>
+                                    <option label="FRANCE" value="FR">FRANCE</option>
+                                    <option label="FRENCH GUIANA" value="GF">FRENCH GUIANA</option>
+                                    <option label="FRENCH POLYNESIA" value="PF">FRENCH POLYNESIA</option>
+                                    <option label="GABON" value="GA">GABON</option>
+                                    <option label="GAMBIA" value="GM">GAMBIA</option>
+                                    <option label="GEORGIA" value="GE">GEORGIA</option>
+                                    <option label="GERMANY" value="DE">GERMANY</option>
+                                    <option label="GHANA" value="GH">GHANA</option>
+                                    <option label="GIBRALTAR" value="GI">GIBRALTAR</option>
+                                    <option label="GREECE" value="GR">GREECE</option>
+                                    <option label="GREENLAND" value="GL">GREENLAND</option>
+                                    <option label="GRENADA" value="GD">GRENADA</option>
+                                    <option label="GUADELOUPE" value="GP">GUADELOUPE</option>
+                                    <option label="GUAM" value="GU">GUAM</option>
+                                    <option label="GUATEMALA" value="GT">GUATEMALA</option>
+                                    <option label="GUINEA" value="GN">GUINEA</option>
+                                    <option label="GUINEA-BISSAU" value="GW">GUINEA-BISSAU</option>
+                                    <option label="GUYANA" value="GY">GUYANA</option>
+                                    <option label="HAITI" value="HT">HAITI</option>
+                                    <option label="HEARD ISLAND AND MCDONALD ISLANDS" value="HM">HEARD ISLAND AND MCDONALD ISLANDS</option>
+                                    <option label="HOLY SEE (VATICAN CITY STATE)" value="VA">HOLY SEE (VATICAN CITY STATE)</option>
+                                    <option label="HONDURAS" value="HN">HONDURAS</option>
+                                    <option label="HONG KONG" value="HK">HONG KONG</option>
+                                    <option label="HUNGARY" value="HU">HUNGARY</option>
+                                    <option label="ICELAND" value="IS">ICELAND</option>
+                                    <option label="INDIA" value="IN">INDIA</option>
+                                    <option label="INDONESIA" value="ID">INDONESIA</option>
+                                    <option label="IRAQ" value="IQ">IRAQ</option>
+                                    <option label="IRELAND" value="IE">IRELAND</option>
+                                    <option label="ISRAEL" value="IL">ISRAEL</option>
+                                    <option label="ITALY" value="IT">ITALY</option>
+                                    <option label="JAMAICA" value="JM">JAMAICA</option>
+                                    <option label="JAPAN" value="JP">JAPAN</option>
+                                    <option label="JORDAN" value="JO">JORDAN</option>
+                                    <option label="KAZAKHSTAN" value="KZ">KAZAKHSTAN</option>
+                                    <option label="KENYA" value="KE">KENYA</option>
+                                    <option label="KIRIBATI" value="KI">KIRIBATI</option>
+                                    <option label="KOREA, REPUBLIC OF" value="KR">KOREA, REPUBLIC OF</option>
+                                    <option label="KUWAIT" value="KW">KUWAIT</option>
+                                    <option label="KYRGYZSTAN" value="KG">KYRGYZSTAN</option>
+                                    <option label="LAO PEOPLE'S DEMOCRATIC REPUBLIC" value="LA">LAO PEOPLE'S DEMOCRATIC REPUBLIC</option>
+                                    <option label="LATVIA" value="LV">LATVIA</option>
+                                    <option label="LEBANON" value="LB">LEBANON</option>
+                                    <option label="LESOTHO" value="LS">LESOTHO</option>
+                                    <option label="LIBERIA" value="LR">LIBERIA</option>
+                                    <option label="LIBYAN ARAB JAMAHIRIYA" value="LY">LIBYAN ARAB JAMAHIRIYA</option>
+                                    <option label="LIECHTENSTEIN" value="LI">LIECHTENSTEIN</option>
+                                    <option label="LITHUANIA" value="LT">LITHUANIA</option>
+                                    <option label="LUXEMBOURG" value="LU">LUXEMBOURG</option>
+                                    <option label="MACAO" value="MO">MACAO</option>
+                                    <option label="MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF" value="MK">MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF</option>
+                                    <option label="MADAGASCAR" value="MG">MADAGASCAR</option>
+                                    <option label="MALAWI" value="MW">MALAWI</option>
+                                    <option label="MALAYSIA" value="MY">MALAYSIA</option>
+                                    <option label="MALDIVES" value="MV">MALDIVES</option>
+                                    <option label="MALI" value="ML">MALI</option>
+                                    <option label="MALTA" value="MT">MALTA</option>
+                                    <option label="MARSHALL ISLANDS" value="MH">MARSHALL ISLANDS</option>
+                                    <option label="MARTINIQUE" value="MQ">MARTINIQUE</option>
+                                    <option label="MAURITANIA" value="MR">MAURITANIA</option>
+                                    <option label="MAURITIUS" value="MU">MAURITIUS</option>
+                                    <option label="MAYOTTE" value="YT">MAYOTTE</option>
+                                    <option label="MEXICO" value="MX">MEXICO</option>
+                                    <option label="MICRONESIA, FEDERATED STATES OF" value="FM">MICRONESIA, FEDERATED STATES OF</option>
+                                    <option label="MOLDOVA, REPUBLIC OF" value="MD">MOLDOVA, REPUBLIC OF</option>
+                                    <option label="MONACO" value="MC">MONACO</option>
+                                    <option label="MONGOLIA" value="MN">MONGOLIA</option>
+                                    <option label="MONTSERRAT" value="MS">MONTSERRAT</option>
+                                    <option label="MOROCCO" value="MA">MOROCCO</option>
+                                    <option label="MOZAMBIQUE" value="MZ">MOZAMBIQUE</option>
+                                    <option label="MYANMAR" value="MM">MYANMAR</option>
+                                    <option label="NAMIBIA" value="NA">NAMIBIA</option>
+                                    <option label="NAURU" value="NR">NAURU</option>
+                                    <option label="NEPAL" value="NP">NEPAL</option>
+                                    <option label="NETHERLANDS" value="NL">NETHERLANDS</option>
+                                    <option label="NETHERLANDS ANTILLES" value="AN">NETHERLANDS ANTILLES</option>
+                                    <option label="NEW CALEDONIA" value="NC">NEW CALEDONIA</option>
+                                    <option label="NEW ZEALAND" value="NZ">NEW ZEALAND</option>
+                                    <option label="NICARAGUA" value="NI">NICARAGUA</option>
+                                    <option label="NIGER" value="NE">NIGER</option>
+                                    <option label="NIGERIA" value="NG">NIGERIA</option>
+                                    <option label="NIUE" value="NU">NIUE</option>
+                                    <option label="NORFOLK ISLAND" value="NF">NORFOLK ISLAND</option>
+                                    <option label="NORTHERN MARIANA ISLANDS" value="MP">NORTHERN MARIANA ISLANDS</option>
+                                    <option label="NORWAY" value="NO">NORWAY</option>
+                                    <option label="OMAN" value="OM">OMAN</option>
+                                    <option label="PAKISTAN" value="PK">PAKISTAN</option>
+                                    <option label="PALAU" value="PW">PALAU</option>
+                                    <option label="PALESTINIAN TERRITORY, OCCUPIED" value="PS">PALESTINIAN TERRITORY, OCCUPIED</option>
+                                    <option label="PANAMA" value="PA">PANAMA</option>
+                                    <option label="PAPUA NEW GUINEA" value="PG">PAPUA NEW GUINEA</option>
+                                    <option label="PARAGUAY" value="PY">PARAGUAY</option>
+                                    <option label="PERU" value="PE">PERU</option>
+                                    <option label="PHILIPPINES" value="PH">PHILIPPINES</option>
+                                    <option label="PITCAIRN" value="PN">PITCAIRN</option>
+                                    <option label="POLAND" value="PL">POLAND</option>
+                                    <option label="PORTUGAL" value="PT">PORTUGAL</option>
+                                    <option label="PUERTO RICO" value="PR">PUERTO RICO</option>
+                                    <option label="QATAR" value="QA">QATAR</option>
+                                    <option label="REUNION" value="RE">REUNION</option>
+                                    <option label="ROMANIA" value="RO">ROMANIA</option>
+                                    <option label="RUSSIAN FEDERATION" value="RU">RUSSIAN FEDERATION</option>
+                                    <option label="RWANDA" value="RW">RWANDA</option>
+                                    <option label="SAINT HELENA" value="SH">SAINT HELENA</option>
+                                    <option label="SAINT KITTS AND NEVIS" value="KN">SAINT KITTS AND NEVIS</option>
+                                    <option label="SAINT LUCIA" value="LC">SAINT LUCIA</option>
+                                    <option label="SAINT PIERRE AND MIQUELON" value="PM">SAINT PIERRE AND MIQUELON</option>
+                                    <option label="SAINT VINCENT AND THE GRENADINES" value="VC">SAINT VINCENT AND THE GRENADINES</option>
+                                    <option label="SAMOA" value="WS">SAMOA</option>
+                                    <option label="SAN MARINO" value="SM">SAN MARINO</option>
+                                    <option label="SAO TOME AND PRINCIPE" value="ST">SAO TOME AND PRINCIPE</option>
+                                    <option label="SAUDI ARABIA" value="SA">SAUDI ARABIA</option>
+                                    <option label="SENEGAL" value="SN">SENEGAL</option>
+                                    <option label="SERBIA AND MONTENEGRO" value="CS">SERBIA AND MONTENEGRO</option>
+                                    <option label="SEYCHELLES" value="SC">SEYCHELLES</option>
+                                    <option label="SIERRA LEONE" value="SL">SIERRA LEONE</option>
+                                    <option label="SINGAPORE" value="SG">SINGAPORE</option>
+                                    <option label="SLOVAKIA" value="SK">SLOVAKIA</option>
+                                    <option label="SLOVENIA" value="SI">SLOVENIA</option>
+                                    <option label="SOLOMON ISLANDS" value="SB">SOLOMON ISLANDS</option>
+                                    <option label="SOMALIA" value="SO">SOMALIA</option>
+                                    <option label="SOUTH AFRICA" value="ZA">SOUTH AFRICA</option>
+                                    <option label="SOUTH SUDAN" value="SS">SOUTH SUDAN</option>
+                                    <option label="SPAIN" value="ES">SPAIN</option>
+                                    <option label="SRI LANKA" value="LK">SRI LANKA</option>
+                                    <option label="SUDAN" value="SD">SUDAN</option>
+                                    <option label="SURINAME" value="SR">SURINAME</option>
+                                    <option label="SVALBARD AND JAN MAYEN" value="SJ">SVALBARD AND JAN MAYEN</option>
+                                    <option label="SWAZILAND" value="SZ">SWAZILAND</option>
+                                    <option label="SWEDEN" value="SE">SWEDEN</option>
+                                    <option label="SWITZERLAND" value="CH">SWITZERLAND</option>
+                                    <option label="SYRIAN ARAB REPUBLIC" value="SY">SYRIAN ARAB REPUBLIC</option>
+                                    <option label="TAIWAN, REPUBLIC OF CHINA" value="TW">TAIWAN, REPUBLIC OF CHINA</option>
+                                    <option label="TAJIKISTAN" value="TJ">TAJIKISTAN</option>
+                                    <option label="TANZANIA, UNITED REPUBLIC OF" value="TZ">TANZANIA, UNITED REPUBLIC OF</option>
+                                    <option label="THAILAND" value="TH">THAILAND</option>
+                                    <option label="TIMOR-LESTE" value="TL">TIMOR-LESTE</option>
+                                    <option label="TOGO" value="TG">TOGO</option>
+                                    <option label="TOKELAU" value="TK">TOKELAU</option>
+                                    <option label="TONGA" value="TO">TONGA</option>
+                                    <option label="TRINIDAD AND TOBAGO" value="TT">TRINIDAD AND TOBAGO</option>
+                                    <option label="TUNISIA" value="TN">TUNISIA</option>
+                                    <option label="TURKEY" value="TR">TURKEY</option>
+                                    <option label="TURKMENISTAN" value="TM">TURKMENISTAN</option>
+                                    <option label="TURKS AND CAICOS ISLANDS" value="TC">TURKS AND CAICOS ISLANDS</option>
+                                    <option label="TUVALU" value="TV">TUVALU</option>
+                                    <option label="UGANDA" value="UG">UGANDA</option>
+                                    <option label="UKRAINE" value="UA">UKRAINE</option>
+                                    <option label="UNITED ARAB EMIRATES" value="AE">UNITED ARAB EMIRATES</option>
+                                    <option label="UNITED KINGDOM" value="GB">UNITED KINGDOM</option>
+                                    <option label="UNITED STATES" value="US">UNITED STATES</option>
+                                    <option label="UNITED STATES MINOR OUTLYING ISLANDS" value="UM">UNITED STATES MINOR OUTLYING ISLANDS</option>
+                                    <option label="URUGUAY" value="UY">URUGUAY</option>
+                                    <option label="UZBEKISTAN" value="UZ">UZBEKISTAN</option>
+                                    <option label="VANUATU" value="VU">VANUATU</option>
+                                    <option label="VENEZUELA" value="VE">VENEZUELA</option>
+                                    <option label="VIET NAM" value="VN">VIET NAM</option>
+                                    <option label="VIRGIN ISLANDS, BRITISH" value="VG">VIRGIN ISLANDS, BRITISH</option>
+                                    <option label="VIRGIN ISLANDS, U.S." value="VI">VIRGIN ISLANDS, U.S.</option>
+                                    <option label="WALLIS AND FUTUNA" value="WF">WALLIS AND FUTUNA</option>
+                                    <option label="YEMEN" value="YE">YEMEN</option>
+                                    <option label="ZAMBIA" value="ZM">ZAMBIA</option>
+                                    <option label="ZIMBABWE" value="ZW">ZIMBABWE</option>
+                                  </select>
+                                  <span class="drop-arrow"></span>
+                                </div>
+                           </div>
+                           <div class="clearfix"></div>
+                        </div>
+                       <!-- Editable-field Ends -->
+                    </div>
+                    <div class="col-sm-6">
+                      <label class="sumry-label">Status</label>
+                      <div class="sumry-value">Not Submitted </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="page-head-row">
+              <div class="row">
+                <div class="col-sm-7">
+                  <div class="row">
+                    <div class="col-sm-4 editOuter textEditable">
+                        <label class="sumry-label">Cisco Sales Rep</label>
+                        
+                        <div class="nonEditable">
+                          <div class="sumry-value updatedTxt"><span class="text-ellipsis">John Smith</span> <i class="icon-edit white tipsyTop editFilledField" title="Edit"></i></div>
+                        </div>
+                        
+                        <!-- Editable-field Start -->
+                        <div class="editable-fields">
+                        	<div class="form-group">
+                              <input type="text" placeholder="Enter CCO ID" class="form-control" id="usersName" required="" aria-invalid="false">
+                           </div>
+                           <div class="clearfix"></div>
+                        </div>
+                       <!-- Editable-field Ends -->
+                    </div>
+                    <div class="col-sm-4 editOuter textEditable">
+                        <label class="sumry-label">Valid Until</label>
+
+                        <div class="nonEditable">
+                            <div class="sumry-value updatedTxt"><span class="text-ellipsis">Mar 23, 2018</span><i class="icon-edit white tipsyTop editFilledField dateField" title="Edit"></i></div>
+                        </div>
+
+                        <!-- Editable-field Start -->
+                        <div class="editable-fields">
+                       	<div class="form-group">
+                            <input type="text" value="23-Mar-2018" class="form-control" value="" id="datepicker2">
+                            <i class="icon-calender-icon calender"></i>
+                        </div>
+                          <div class="clearfix"></div>
+                       </div>
+                       <!-- Editable-field Ends -->
+
+                    </div>
+                    <div class="col-sm-4">
+                        <label class="sumry-label">Shared With Customer On</label>
+                        <div class="sumry-value">-- </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-5">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <label class="sumry-label">Billing Amount</label>
+                      <div class="sumry-value">View Details
+                          <div class="billing-flyout">
+                            <span class="icon-arrow-down dropdown-toggle" id="billing-dropdown" data-toggle="dropdown" ><span class="dropdown-arrow"></span></span>
+                            <ul uib-dropdown-menu="" aria-labelledby="billing-dropdown" class="dropdown-menu  user-drpdown ">
+                              <li><label>Monthly<small class="usdPrice">(USD)</small></label> <span>100</span></li>
+                              <li><label>Annually<small class="usdPrice">(USD)</small></label> <span>500</span></li>
+                              <li><label>Quarterly<small class="usdPrice">(USD)</small></label> <span>700</span></li>
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <label class="sumry-label">Total Contract Value <i>(36 Months Term)</i></label>
+                      <div class="sumry-value">USD 12,000.00</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <span class="handle-header">
+              <span class="dot-icon"><i></i><i></i><i></i></span>
+            </span>
+          </div>
+        </div>
+    </div>
+	</div>
+    
+   <div class="row">
+    	<div class="col-sm-12 step-widget-panel">
+        	<ul class="step-widget-bar">
+                <i class="bg-strip"></i>
+            	<li class="product-info complete">
+                	<a href="javascript:void(0);">
+                    	<i>1</i>
+                        <span class="clearfix">Items</span>
+                    </a>
+                </li>
+                <li class="contact-info">
+                	<a href="contacts.html">
+                    	<i>2</i>
+                        <span class="clearfix">Addresses &amp; Contacts</span>
+                    </a>
+                </li>
+                <li class="review-info">
+                	<a href="review.html">
+                    	<i>3</i>
+                        <span class="clearfix">Review &amp; Share</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+ <!-- Item Table Wrapper Starts -->   
+<div class="item-table-wrapper container-fluid">
+  <div class="row margin0 page-level-header item-panel">
+    <div class="col-sm-6 heading-box">
+      <h2>Items</h2>
+    </div>
+    <div class="col-sm-6 btn-box">
+      <input class="btn btn-primary pull-right proceed-to-contact-btn marginL10 xl" value="Continue" type="button" onClick="window.location= 'contacts.html'">
+      <input class="btn btn-primary pull-right marginL10 upload-attachment xl" value="Upload/View Attachments" type="button" data-toggle="modal" data-target="#upload-approval" disabled="disabled">
+      <input class="btn btn-white xl pull-right" value="Cancel" type="button" onClick="window.location='quote.html'"/>
+    </div>
+  </div>
+  <div class="alert alert-danger alert-upload-attachment marginT20 marginB0">
+    <i></i>
+    <span>Quote has crossed the approved discount threshold. Please <a href="javascript:void(0);" data-toggle="modal" data-target="#upload-approval">Upload Approval Attachment.</a></span>
+  </div>
+  <div class="alert alert-danger marginT20 marginB0 fileAlreadyAdded">
+    <i></i>
+    <span>Search items does not exist</span>
+  </div>
+  <div class="alert alert-danger marginT20 marginB0 alert-discountZero">
+    <i></i>
+    <span>Discount cannot be less then 0%.</span>
+  </div>
+  <div class="alert alert-danger marginT20 marginB0 alert-discountExceedValue">
+    <i></i>
+    <span>Discount cannot be greater than 100%.</span>
+  </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="add-product-form clearfix">
+          <div class="col-sm-4 add-product add-product-block">
+            <div class="input-group search-panel pull-left">
+              <input class="form-control paddingL0 quote-product add-to-quote" id="search-product" placeholder="" aria-describedby="basic-addon1" type="text" required>
+              <label class="form-control-placeholder"  for="search-product">Search &amp; Add Items to Quote</label>
+              <div class="search-sugg-wrap-des"></div>
+              <span class="input-group-addon icon-search-gray-icon" id="basic-addon1"></span>
+            </div>
+          </div>
+          <div class="col-sm-8">
+            <div class="form-group select-product">
+              <label class="form-control-placeholder">Quantity</label>
+              <span>
+              <a href="javascript:void" class="glyphicon glyphicon-minus caretDown"></a>
+              <input class="form-control quote-qty" type="text" value="1">
+              <a href="javascript:void" class="icon-add-icon caretUp"></a>
+              </span>
+            </div>
+            <button class="btn btn-green config-add-btn xl"> Configure &amp; Add</button>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="row">
+    <div class="col-sm-9">
+        <button class="btn btn-primary marginR10 marginT10 controlsBtn" disabled>Remove Selected Lines</button>
+        <button class="btn btn-primary marginR10 marginT10 controlsBtn" disabled>Validate</button>
+    </div>
+</div>
+<div class="row marginT10">
+<div class="col-xs-12">
+<div  class="table-responsive item-table-con"> 
+<table class="table table-hover landing-table marginB0 item-table" style="padding: 0px;">
+  <thead>
+    <tr>
+    <th class="text-center" width="2%"> <input type="checkbox" id="checkAll" name="status[]"> <label></label> </th>
+    <th class="text-center" width="3%"><a href="javascript:void(0);" class="expand-all-rows icon-expand-all" title="Expand All/Collapse All"></a></th>
+    <th class="text-left" width="30%">Items</th>
+    <th class="text-center" width="8%">Qty</th>
+    <th class="text-right" width="15%">Unit List Price <span class="usdPrice">(USD)</span></th>
+    <th class="text-right" width="10%">Discount (%)</th>
+    <th class="text-right" width="15%">Unit Net Price <span class="usdPrice">(USD)</span></th>
+    <th class="text-right" width="17%">Billing Amount <span class="usdPrice">(USD)</span></th>
+    </tr>
+  </thead>
+  <tbody class="norecords">
+    <tr>
+      <td class="no-record text-center marginT10" colspan="8"><img src="images/no-record-icon.svg" alt=""/>
+      <p>Search and Add Items to Quote</p>
+      </td>
+    </tr>
+  </tbody>
+  <tbody class="records">
+    <tr class="major-line" data-group="1">
+      <td class="text-center"><input type="checkbox" id="check1"> <label for="check1"></label></td>
+      <td class="text-center"><a href="javascript:void(0);" class="expand-row-arrow icon-expand"></a></td>
+      <td class="text-left">
+        <span class="table-num">1.0</span> <span class="product-sku">A-WX-NAMED-HOST <span class="product-desc">Spark Named User (with WebEx) (1)</span> 
+          <div class="validText"> 
+            <div class="line-level-alert"><i class="alert-icon"></i>
+              <div class="inline-level-list">
+                <h3 class="modal-title">Error(s) on this line</h3>
+                <div class="clearfix"></div>
+                <ul>
+                    <li class="error"><i class="error"></i>Error placeholder</li>
+                </ul>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+              
+            <div class="line-level-alert"><i class="warning-icon"><span class="path1"></span><span class="path2"></span></i>
+              <div class="inline-level-list">
+                  <h3 class="modal-title">Warning(s) on this line</h3>
+                  <div class="clearfix"></div>
+                  <ul>
+                      <li class="warning"><i class="warning"></i>A-WX-NAMED-HOST: Product Configuration is not valid. Select 'Edit/Select Options' to remove or correct the options.</li>
+                  </ul>
+                  <div class="clearfix"></div>
+              </div>
+            </div>
+            <span class="validOuter"> <span class="textRed">INVALID</span> <span>as of</span> <span>Tue 25-Apr-2017 22:51:36 PDT</span> </span> 
+          </div>
+        </span>
+      </td>
+      <td class="text-center">1</td>
+      <td class="text-right"></td>
+      <td class="text-right"><div class="custom-tipsy"><input type="text" class="form-control text-right discount-textbox" value="50.00" />
+        <!--<div class="tipsy tipsy-n discount-tipsy">
+            <div class="tipsy-inner">
+              <div class="upload-disc-attachment"><span>Quote has crossed the approved discount threshold. Please upload approval attachment.</span> <a href="javascript:void(0);" data-toggle="modal" data-target="#upload-approval">Upload Approval Attachment</a>
+              </div>
+          </div>
+        </div>-->
+        </div>
+      </td>
+      <td class="text-right"></td>
+      <td class="text-right">
+        <div class="collapsed-price">900.00 <div class="clearfix"></div><span class="mrc">Monthly</span></div>
+        <span class="expanded-price"></span>
+        <div class="clearfix"></div>
+        
+      </td>
+    </tr>
+    <tr class="saas-row-tr" data-group="1">
+      <td></td>
+      <td></td>
+      <td colspan="6">
+        <div class="saas-row clearfix">
+          <div class="col-sm-3 col-xs-3">
+            <label>Initial Term</label>
+            <span>36 Months</span> </div>
+          <div class="col-sm-3 col-xs-3">
+            <label>Automatically Renews For</label>
+            <span>12 Months</span> </div>
+          <div class="col-sm-3 col-xs-3">
+            <label>Billed</label>
+            <span>Monthly</span> </div>
+          <div class="col-sm-3 col-xs-3 editOuter">
+            <label>Provisioning Contact Email</label>
+                <span class="nonEditable nonEditable-email">
+                    <a href="mailto:sunchand@cisco.com">sunchand@cisco.com</a>
+                    <span class="icon-edit tipsyTop" data-toggle="modal" data-target="#provisioning" title="Edit"></span>
+                   </span>
+                    <!-- Editable-field Start -->
+                       <div class="email-fields editable-fields emailBoxValid prov-editable-email">
+                         <form>
+                            <div class="form-group">
+                              <input type="text" value="" name="email" class="form-control provisning-cntct" id="custmerName">
+                              <span class="icon-edit tipsyTop editFilledField pull-right" title="Edit" data-toggle="modal" data-target="#provisioning"></span>
+                            </div>
+                         </form>
+                          <div class="clearfix"></div>
+                       </div>
+                      <!-- Editable-field Ends -->
+          </div>
+          <div class="col-sm-3 col-xs-3 paddingR0 editOuter textEditable">
+            <label>Requested Start Date</label>
+                  <span class="nonEditable">
+                     <span class="updatedTxt"> <span>01-JAN-2017</span></span> <span class="icon-edit tipsyTop editFilledField dateField" title="Edit"></span>
+                  </span>
+            <!-- Editable-field Start -->
+                       <div class="editable-fields" style="">
+                       	<div class="form-group">
+                            <input type="text" class="form-control" value="" id="datepicker">
+                        </div>
+                          <div class="clearfix"></div>
+                       </div>
+                      <!-- Editable-field Ends -->
+          </div>
+          <div class="action-links">
+            <ul>
+              <li> <a href="items-modification.html">Edit Configuration</a> </li>
+              <li> <a href="javascript:void(0)">Remove Line</a> </li>
+              <li> <a href="javascript:void(0)">Validate</a> </li>
+            </ul>
+            
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="minner-line">
+      <td class="text-center borderT0"></td>
+      <td class="text-center borderT0"><!--a href="javascript:void(0);" class="expand-row-arrow expanded"></a--></td>
+      <td class="text-left product-info-col item-product"> <span class="table-num">1.1</span> <span class="product-sku"> A-WX-NU-MC-SPKMSG <div class="item-warning-msg"><div class="line-level-alert order-alert"><i class="warning-icon"><span class="path1"></span><span class="path2"></span></i>
+              <div class="inline-level-list">
+                  <h3 class="modal-title">Warning(s) on this line</h3>
+                  <div class="clearfix"></div>
+                  <ul>
+                      <li class="warning"><i class="warning"></i>A-WX-NU-MC-SPKMSG: Product Configuration is not valid. Select 'Edit/Select Options' to remove or correct the options.</li>
+                  </ul>
+                  <div class="clearfix"></div>
+              </div>
+            </div><span class="product-desc">Included Spark Message for Meeting Center</span></div> </span> </td>
+      <td class="text-center">25<div class="clearfix"></div><span class="mrc">User</span></td>
+      <td class="text-right">0.00<div class="clearfix"></div><span class="mrc">Per User/Month</span></td>
+      <td class="text-right"><input type="text" class="form-control text-right discount-textbox" value="1" /></td>
+      <td class="text-right">0.00<div class="clearfix"></div><span class="mrc">Per User/Month</span></td>
+      <td class="text-right">0.00<div class="clearfix"></div><span class="mrc">Monthly</span></td>
+    </tr>
+    <tr class="minner-line">
+      <td class="text-center borderT0"></td>
+      <td class="text-center borderT0"><!--a href="javascript:void(0);" class="expand-row-arrow expanded"></a--></td>
+      <td class="text-left product-info-col"> <span class="table-num">1.2</span> <span class="product-sku">A-WX-NU-RMSTG-INC <span class="product-desc">Included Message Included Storage (1)</span> </span> </td>
+      <td class="text-center">20<div class="clearfix"></div><span class="mrc">GB</span></td>
+      <td class="text-right">0.00<div class="clearfix"></div><span class="mrc">Per GB/Month</span></td>
+      <td class="text-right"><input type="text" class="form-control text-right discount-textbox" value="1" /></td>
+      <td class="text-right">0.00<div class="clearfix"></div><span class="mrc">Per GB/Month</span></td>
+      <td class="text-right">0.00<div class="clearfix"></div><span class="mrc">Monthly</span></td>
+    </tr>
+    <tr class="minner-line">
+      <td class="text-center borderT0"></td>
+      <td class="text-center borderT0"><!--a href="javascript:void(0);" class="expand-row-arrow expanded"></a--></td>
+      <td class="text-left product-info-col"> <span class="table-num">1.3</span> <span class="product-sku">A-WX-Storage-INC <span class="product-desc">Included Storage (1)</span> </span> </td>
+      <td class="text-center">10<div class="clearfix"></div><span class="mrc">GB</span></td>
+      <td class="text-right">0.00<div class="clearfix"></div><span class="mrc">Per GB/Month</span></td>
+      <td class="text-right"><input type="text" class="form-control text-right discount-textbox" value="1" /></td>
+      <td class="text-right">0.00<div class="clearfix"></div><span class="mrc">Per GB/Month</span></td>
+      <td class="text-right">0.00<div class="clearfix"></div><span class="mrc">Monthly</span></td>
+    </tr>
+    <tr class="minner-line">
+      <td class="text-center borderT0"></td>
+      <td class="text-center borderT0"><!--a href="javascript:void(0);" class="expand-row-arrow expanded"></a--></td>
+      <td class="text-left product-info-col"> <span class="table-num">1.4</span> <span class="product-sku">A-WX-STORAGE-OVR <span class="product-desc">Enable Storage Overage (1)</span> <span class="mrc"><i class="icon-chart"></i> Usage Per Use</span> </span> </td>
+      <td class="text-center">1<div class="clearfix"></div><span class="mrc">GB</span></td>
+      <td class="text-right">6.64<div class="clearfix"></div><span class="mrc">Per GB/Month</span></td>
+      <td class="text-right"><input type="text" class="form-control text-right discount-textbox" value="1" /></td>
+      <td class="text-right">0.00<div class="clearfix"></div><span class="mrc">Per GB/Month</span></td>
+      <td class="text-right">900.00<div class="clearfix"></div><span class="mrc">Monthly</span></td>
+    </tr>
+    <tr class="subTotal-row">
+      <td class="text-center borderT0"></td>
+      <td class="text-center borderT0"></td>
+      <td colspan="3" class="product-info-col"></td>
+      <td colspan="3">
+        <table class="table table-hover marginB0 subtotal-table">
+          <tbody>
+            <tr>
+              <td class="text-right"><span>Offer Subtotal</span> </td>
+              <td class="text-right"><strong>900.00</strong></td>
+            </tr>
+            <tr>
+              <td class="text-right"><span>Total Contract Value</span> <span class="term-sub-note">(Over 36 Month Term)</span></td>
+              <td class="text-right"><strong>12,000.00</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr> 
+    <tr class="major-line" data-group="2">
+      <td class="text-center"><input type="checkbox" id="check2"> <label for="check2"></label></td>
+      <td class="text-center"><a href="javascript:void(0);" class="expand-row-arrow icon-expand disabled"></a></td>
+      <td class="text-left"> <span class="table-num">2.0</span> <span class="product-sku">CISCO3845V3PNK9-RF <span class="product-desc">Catalyst 9300 8 x 10GE Network Module</span> </span> </td>
+      <td class="text-center">1</td>
+      <td class="text-right"></td>
+      <td class="text-right"><input type="text" class="form-control text-right discount-textbox" value="1" /></td>
+      <td class="text-right"></td>
+      <td class="text-right">
+        <div class="collapsed-price">46,566.83</div>
+        <span class="expanded-price">0.00</span>
+      </td>
+    </tr>
+    <tr class="saas-row-tr" data-group="2">
+      <td></td>
+      <td></td>
+      <td colspan="6">
+        <div class="saas-row clearfix action-outer">
+          <div class="action-links">
+            <ul>
+              <li> <a href="items-modification.html">Edit Configuration</a> </li>
+              <li> <a href="javascript:void(0)">Remove Line</a> </li>
+              <li> <a href="javascript:void(0)">Validate</a> </li>
+            </ul>
+            
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="major-line" data-group="3">
+      <td class="text-center"><input type="checkbox" id="check3"> <label for="check3"></label></td>
+      <td class="text-center"><a href="javascript:void(0);" class="expand-row-arrow icon-expand disabled"></a></td>
+      <td class="text-left"> <span class="table-num">3.0</span> <span class="product-sku">CDV-CIS-DEV-SUB<span class="product-desc">Cisco Data Virtualization - CIS Development Term Licenses</span> </span> </td>
+      <td class="text-center">1</td>
+      <td class="text-right"></td>
+      <td class="text-right"><input type="text" class="form-control text-right discount-textbox" value="1" /></td>
+      <td class="text-right"></td>
+      <td class="text-right">
+        <div class="collapsed-price">10,977.90</div>
+        <span class="expanded-price">0.00</span>
+      </td>
+    </tr>
+    <tr class="saas-row-tr" data-group="3">
+      <td></td>
+      <td></td>
+      <td colspan="6">
+        <div class="saas-row clearfix action-outer">
+          <div class="action-links">
+            <ul>
+              <li> <a href="items-modification.html">Edit Configuration</a> </li>
+              <li> <a href="javascript:void(0)">Remove Line</a> </li>
+              <li> <a href="javascript:void(0)">Validate</a> </li>
+            </ul>
+            
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="major-line" data-group="4">
+      <td class="text-center"><input type="checkbox" id="check4"> <label for="check4"></label></td>
+      <td class="text-center"><a href="javascript:void(0);" class="expand-row-arrow icon-expand disabled"></a></td>
+      <td class="text-left"> <span class="table-num">4.0</span> <span class="product-sku">CISCO3845V3PNK9-RF <span class="product-desc">Catalyst 9300 8 x 10GE Network Module</span> </span> </td>
+      <td class="text-center">1</td>
+      <td class="text-right"></td>
+      <td class="text-right"><input type="text" class="form-control text-right discount-textbox" value="1" /></td>
+      <td class="text-right"></td>
+      <td class="text-right">
+        <div class="collapsed-price">46,566.83</div>
+        <span class="expanded-price">0.00</span>
+      </td>
+    </tr>
+    <tr class="saas-row-tr" data-group="4">
+      <td></td>
+      <td></td>
+      <td colspan="6">
+        <div class="saas-row clearfix action-outer">
+          <div class="action-links">
+            <ul>
+              <li> <a href="items-modification.html">Edit Configuration</a> </li>
+              <li> <a href="javascript:void(0)">Remove Line</a> </li>
+              <li> <a href="javascript:void(0)">Validate</a> </li>
+            </ul>
+            
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="major-line" data-group="5">
+      <td class="text-center"><input type="checkbox" id="check5"> <label for="check5"></label></td>
+      <td class="text-center"><a href="javascript:void(0);" class="expand-row-arrow icon-expand disabled"></a></td>
+      <td class="text-left"> 
+      <span class="table-num">5.0</span> <span class="product-sku">CISCO2811SRSTK9-RF <span class="product-desc">3845 V3PN, AIM-VPN, PVDM2-64, CCME-240, AdvIPServ,</span> </span> 
+      </td>
+      <td class="text-center">1</td>
+      <td class="text-right"></td>
+      <td class="text-right"><input type="text" class="form-control text-right discount-textbox" value="1" /></td>
+      <td class="text-right"></td>
+      <td class="text-right">
+        <div class="collapsed-price">46,566.83</div>
+        <span class="expanded-price">0.00</span>
+      </td>
+    </tr>
+    <tr class="saas-row-tr" data-group="5">
+      <td></td>
+      <td></td>
+      <td colspan="6">
+        <div class="saas-row clearfix action-outer">
+          <div class="action-links">
+            <ul>
+              <li> <a href="items-modification.html">Edit Configuration</a> </li>
+              <li> <a href="javascript:void(0)">Remove Line</a> </li>
+              <li> <a href="javascript:void(0)">Validate</a> </li>
+            </ul>
+            
+          </div>
+        </div>
+      </td>
+    </tr>          
+  </tbody>
+</table>
+</div>
+<div class="row pagination-bar table-pagination">
+  <div class="col-sm-2"> <span class="view">View</span>
+    <div class="pagination-dropdown">
+      <ul>
+        <li class="dropdown" uib-dropdown="" on-toggle="toggled(open)" style=""> <a uib-dropdown-toggle="" href="javascript:void(0);" class="dropdown-toggle" id="user-profile-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon-user"></i>10<span class="icon-tiny-down-arrow"></span></a>
+          <div uib-dropdown-menu="" aria-labelledby="user-profile-dropdown" class="dropdown-menu user-drpdown">
+            <ul>
+              <li>10</li>
+              <li>20</li>
+              <li>50</li>
+              <li>100</li>
+              <li>200</li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <span class="per-page">per page</span> </div>
+  <div class="col-sm-8 text-center">
+    <ul class="pagination">
+      <li><a class="icon-double-arrow-left"> </a></li>
+      <li><a class="icon-arrow-left"> </a></li>
+      <li>
+        <ul class="page-count">
+          <li class="selected">1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+          <li>6</li>
+          <li class="dropdown pagination-dropdown" uib-dropdown="" on-toggle="toggled(open)" style=""> <a uib-dropdown-toggle="" href="javascript:void(0);" class="dropdown-toggle" id="page-numbers" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">...</a>
+            <div uib-dropdown-menu="" aria-labelledby="page-numbers" class="dropdown-menu user-drpdown">
+              <ul>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>13</li>
+                <li>14</li>
+                <li>15</li>
+                <li>16</li>
+                <li>17</li>
+                <li>18</li>
+                <li>19</li>
+                <li>20</li>
+                <li>21</li>
+                <li>22</li>
+                <li>23</li>
+                <li>24</li>
+                <li>25</li>
+                <li>26</li>
+                <li>27</li>
+                <li>28</li>
+                <li>29</li>
+                <li>30</li>
+                <li>31</li>
+                <li>32</li>
+                <li>33</li>
+                <li>34</li>
+                <li>35</li>
+                <li>36</li>
+                <li>37</li>
+                <li>38</li>
+                <li>39</li>
+                <li>40</li>
+                <li>41</li>
+                <li>42</li>
+                <li>43</li>
+                <li>44</li>
+                <li>45</li>
+                <li>46</li>
+                <li>47</li>
+                <li>48</li>
+                <li>49</li>
+              </ul>
+            </div>
+          </li>
+          <li>50</li>
+        </ul>
+      </li>
+      <li><a class="icon-arrow-right"> </a></li>
+      <li><a class="icon-double-arrow-right"> </a></li>
+    </ul>
+  </div>
+  <div class="col-sm-2 ">
+    <div class="pull-right"> <span class="result">Displaying</span> <span class="active-page">1-1</span> <span>of</span> <span class="total-pages">3</span> </div>
+  </div>
+</div>
+<div class="page-level-footer">
+    <input class="btn btn-white pull-left margin0 xl" value="Back" type="button" onClick="window.location='quote-initiation.html'">
+    <input class="btn btn-white xl" value="Cancel" type="button" onClick="window.location='quote.html'"/>
+    <input class="btn btn-primary marginL10 upload-attachment xl" value="Upload/View Attachments" type="button" data-toggle="modal" data-target="#upload-approval" disabled="disabled"><input class="btn btn-primary proceed-to-contact-btn marginB0 xl" onClick="window.location= 'contacts.html'" value="Continue" type="button">
+</div>
+
+<div class="clearfix"></div>
+<footer id="fw-mb-w1" class="siteFooterArea container-fluid __web-inspector-hide-shortcut__">
+  <section id="framework-footer">
+    <div id="footer-nav"> <a href="javascript:void(0);">Contacts</a> | <a href="javascript:void(0);"> <i class="feedback_img"></i> Feedback</a> | <a href="javascript:void(0);">Help</a> | <a href="javascript:void(0);">Site Map</a> </div>
+    <div id="footer-legal"> | <a href="javascript:void(0);">Terms &amp; Conditions</a> | <a href="javascript:void(0);">Privacy Statement</a> | <a href="javascript:void(0);">Cookie Policy</a> | <a href="javascript:void(0);">Trademarks</a> </div>
+  </section>
+  <!-- /FooterArea -->
+</footer>
+</div>
+</div>
+</div>
+ <!-- Item Table Wrapper Ends -->   
+</div>
+<!-- Product Information  Panel  Ends -->
+<!-- Upload Approval Attachment Start -->
+  <div id="upload-approval" class="modal custom-popup fade" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="icon-close close" data-dismiss="modal"></button>
+          <h3 class="modal-title" id="modal-title">Upload Approval Attachment</h3>
+        </div>
+        <div class="modal-body">
+          <div class="modal-inner">
+            <!--Upload Attachment Starts -->
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div class="alert alert-danger upload-error">
+                <i></i>
+                <span>Placeholder for Error message.</span>
+              </div>
+              <div class="alert alert-success upload-success">
+                <i></i>
+                <span>Attachment updloaded successfully.</span>
+              </div>
+              <h4>This Quote contains Discounts over 50% </h4>
+              <p>Please upload E-mail attachment for approval</p>
+              <div class="add-contact-panel">
+                <a class="upload-icon-link" href="javascript:void(0);">
+                  <i class="icon-upload-new"></i>
+                  <span>Upload Attachment</span>
+                </a>
+                <input type="file" id="uploadBtn" >
+              </div>
+              <div class="loader">
+                  <img src="images/loader.gif">
+              </div>
+              <div class="attachment-info-con">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-white" data-dismiss="modal">Cancel</button>
+          <button class="btn btn-primary sendApproval" data-dismiss="modal" disabled="disabled">Done</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Upload Approval Attachment End --> 
+<!--Share With Customer Modal Starts -->
+<div id="shareCustomer" class="modal custom-popup fade" role="dialog" >
+  <div class="modal-dialog modal-lg">
+      <!-- Modal content-->
+      <div class="modal-content">
+          <div class="modal-header">
+              <button type="button" class="icon-close close" data-dismiss="modal"><span aria-hidden="true">×</span></button>
+              <h3 class="modal-title" id="modal-title">Share with Internal Team</h3>
+          </div>
+          <div class="share-detail">
+              <div class="modal-body">
+                  <div class="modal-inner">  
+                      <!-- Summary Block -->
+                      <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="alert alert-danger marginB10">
+                   <i></i>
+                   <span>Placeholder for Error message.</span>
+                 </div>
+                          <div class="sumary-row marginT20">
+                            <div class="row sumary-row-internal">
+                                <div class="col-sm-8 quote-info">
+                                    <div class="quote-name">Webex for Ruckus Pizza</div>
+                                </div>
+                                <div class="col-sm-4 globalprice-info">	
+                                    <div class="global-price">Global Price List in US Availability (USD)</div>
+                                </div>
+                            </div>
+                            <div class="row quote-detail-smmry">
+                              <div class="col-sm-5">
+                                  <label class="sumry-label">Created By</label>
+                                  <div class="sumry-value">Jason Doe <span> on </span>06-Nov-2017</div>
+                              </div>                                     
+                              <div class="col-sm-3">
+                                  <label class="sumry-label">Quote ID</label>
+                                  <div class="sumry-value">673451</div>
+                              </div>
+                              <div class="col-sm-4">
+                                  <label class="sumry-label">Customer Name</label>
+                                  <div class="sumry-value">Jane Smith</div>
+                              </div>
+                            </div>
+                          </div>                        
+                        </div>
+                      </div>
+                      <!-- /Summary Block -->
+                      <!-- Search Contact Start-->
+                      <div class="row">
+                          <div class="col-sm-12">
+                          <div class="alert alert-info user-removed marginB0"> <i></i> <span>User deleted successfully.</span> </div>
+                              <div class="spacer20"></div>
+                              <label class="modal-sub-heading">Share with</label>
+                              <div class="add-share-contact">
+                                  <div class="add-product-form clearfix">
+                                      <div class="col-sm-8 add-product add-product-block">
+                                          <div class="input-group search-panel pull-left">
+                                              <input class="form-control paddingL0 shared-team" id="search-shareID" placeholder="" aria-describedby="basic-addon1" type="text" required>
+                                              <label class="form-control-placeholder"  for="search-shareID">SEARCH BY NAME, E-MAIL OR CCO ID</label>
+                                              <div class="search-sugg-wrap-des"></div>
+                                              <span class="input-group-addon icon-search-gray-icon" id="basic-addon1"></span>
+                                          </div>
+                                      </div>
+                                      <div class="col-sm-4">
+                                          <button class="btn btn-primary xl addContact" disabled="disabled">Add</button>
+                                      </div>
+                                  </div>
+                                  <!-- Share Contact's Table Start-->
+                                  <div class="table-responsive">
+                                      <table class="table table-hover landing-table">
+                                          <thead>
+                                              <tr>
+                                                  <th class="text-left" width="30%">User Name</th>
+                                                    <th class="text-left" width="35%">Email Address</th>
+                                                    <th class="text-left" width="23%">CCO ID</th>
+                                                   <th class="text-left" width="4%"></th>
+                                              </tr>
+                                          </thead>
+                                          <tbody class="norecords">
+                                              <tr>
+                                                  <td class="no-record text-center marginT10" colspan="6"><img src="images/add-user-img.svg" alt="No Contact"/>
+                                                      <p>ADD USER CONTACTS BY SEARCHING</p>
+                                                  </td>
+                                              </tr>
+                                          </tbody>
+                                          <tbody class="records">  
+                                          </tbody>
+                                      </table>
+                                  </div>
+                                  <!-- Share Contact's Table End-->
+                              </div>
+                          </div>
+                      </div>
+                      <!-- Search Contact End-->
+                  </div>
+              </div>
+              <div class="modal-footer borderT0 paddingT0">
+                  <button class="btn btn-white" data-dismiss="modal">Cancel</button>
+                  <button class="btn btn-primary shareWithTeam" disabled="disabled">Share</button>
+              </div>
+          </div>
+          <!-- Sent Share Details -->
+          <div class="sent-detail">
+              <div class="modal-body">
+                  <div class="modal-inner">
+                      <div class="row">
+                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                              <div class="cloned-quote">
+                                  <i></i>
+                                  <h3>Invitation Sent</h3>
+                                  <div class="cloned-text">Your current Quote “Webex for Ruckus PIzza” has been shared with <span class="min-user">Jane Smith, Jill Bates</span> <span class="empty-dots">...</span><span class="max-user">Jane Smith, Jill Bates, Jignesh Acharya, Jane Syly, Jaden Tylor,Jill Trochowiski</span> <a class="user-list"  href="javascript:void(0);"> View More</a>
+      </div>
+      <div class="clearfix"></div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="modal-footer">
+                  <button class="btn btn-primary" data-dismiss="modal">Done</button>
+              </div>
+          </div>
+          <!-- Sent Share Details -->
+      </div>
+  </div>
+</div>
+<!--Share With Customer Modal Starts --> 
+<!-- Clone Quote Modal Starts -->
+<div id="cloneQuote" class="modal custom-popup fade" role="dialog" >
+  <div class="modal-dialog modal-lg">
+      <!-- Modal content-->
+      <div class="modal-content clone-modal-con">
+          <div class="modal-header">
+              <button type="button" class="icon-close close" data-dismiss="modal"><span aria-hidden="true">×</span></button>
+              <h3 class="modal-title" id="modal-title">Clone Quote</h3>
+          </div>
+          <div class="clone-quote-con">
+              <div class="modal-body">
+                  <div class="modal-inner">
+                  <!-- Search Contact -->
+                  <div>
+                      <div class="row">
+                      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                          <p>Clone Quote will import basic quote information including Configuration present on the original Quote.</p>
+                          <div class="spacer35"></div>
+                          <div class="form-group">
+                              <input type="text" class="form-control" value="Copy of Webex for Ruckus Pizza" />
+                              <label class="form-control-placeholder">Quote Name <span class="disableReq">*</span></label>
+                          </div>
+                          <div class="spacer15"></div>
+                          <div class="form-group txt-area-group">
+                              <textarea class="form-control active" data-min-rows="2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum has been the industry's standard dummy text.</textarea>
+                              <label class="form-control-placeholder">Quote Description</label>
+                          </div>
+                          <div class="spacer25"></div>
+                          <div class="include-con">
+                              <label>Include</label>
+                              <div class="include-options">
+                                  <ul>
+                                      <li>
+                                          <input type="checkbox" checked="checked" >
+                                          <label>Primary Business Contact</label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox" disabled>
+                                          <label>Primary Billing Contact</label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox" disabled>
+                                          <label>Additional Contacts</label>
+                                      </li>
+                                  </ul>
+
+                                  <ul>
+                                      <li>
+                                          <input type="checkbox" checked>
+                                          <label>Billing Address</label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox" disabled>
+                                          <label>Service to Address</label>
+                                      </li>
+                                  </ul>
+                                  <ul>
+                                      <li>
+                                          <input type="checkbox" checked>
+                                          <label>Discounts</label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox" disabled>
+                                          <label>Shared Users</label>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                      </div>
+                  </div>
+                  <!-- Search Contact End-->
+                  </div>
+              </div>
+              <div class="modal-footer borderT0 paddingT0">
+                  <button class="btn btn-white" data-dismiss="modal">Cancel</button>
+                  <button class="btn btn-primary clone-btn">Clone</button>
+              </div>
+          </div>
+          <div class="cloned-quote-con">
+              <div class="modal-body">
+                  <div class="modal-inner">
+                  <!-- Search Contact -->
+                  <div>
+                      <div class="row">
+                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                              <div class="cloned-quote">
+                                  <i></i>
+                                  <h3>Copy of Webex for Ruckus Pizza</h3>
+                                  <p>Your current Quote “Webex for Ruckus PIzza” has been cloned to a new quote- <span>“Copy of Webex for Ruckus Pizza”</span></p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- Search Contact End-->
+                  </div>
+              </div>
+              <div class="modal-footer">
+                  <button class="btn btn-white" data-dismiss="modal">View Current Quote</button>
+                  <button class="btn btn-primary" data-dismiss="modal">View Cloned Quote</button>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- Clone Quote Modal Starts -->
+<!--Delete Quote Modal Start-->
+<div id="deleteQuote" class="modal custom-popup fade " role="dialog">
+  <div class="modal-dialog modal-md">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="icon-close close" data-dismiss="modal"></button>
+        <h3 class="modal-title" id="modal-title">Delete Quote</h3>
+      </div>
+      <div class="modal-body">
+        <div class="modal-inner">
+		  <div class="alert alert-warning marginT10 delete-warning"><i></i><span>Once deleted, you will not be able to access this quote anymore. Are you sure you want to delete this quote?</span> </div>
+          <div class="alert alert-success marginT10 delete-success"> <i></i> <span>Quote deleted successfully.</span></div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        
+        <input class="btn btn-white delete-qoute-cancel" data-dismiss="modal" value="Cancel" type="button" />
+        <input class="btn btn-primary delete-qoute-id " value="Done" type="button" />
+        <input class="btn btn-primary delete-qoute-confirm " data-dismiss="modal" value="Ok" type="button" /> 
+        <!--<a class="btn btn-primary marginT0" href="" data-dismiss="modal" data-toggle="modal" data-target="#deleteQuoteSuccess">Ok</a>-->
+      </div>
+    </div>
+  </div>
+</div>
+<!--Delete Quote Modal End-->
+<!--provisioning Modal Start-->
+<div id="provisioning" class="modal custom-popup fade " role="dialog">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="icon-close close" data-dismiss="modal"></button>
+          <h3 class="modal-title" id="modal-title">Enter Provisioning Email</h3>
+        </div>
+        <div class="modal-body">
+          <div class="modal-inner">
+            <div class="form-group col-sm-12 marginB20 marginT20">
+                <input placeholder="" name="contactcity" class="form-control e-name input" id="AddfirstName" required="" type="text">
+                <label class="form-control-placeholder" for="AddfirstName">Enter Provisioning Email
+                <span class="icwRequired">*</span>
+                </label>
+                <span class="alert-tip error-text">
+                <i class="alert-tooltip-arrow"></i>Placeholder for Error message.</span>
+            </div>
+            <div class="form-group col-sm-12 marginT20">
+                <input placeholder="" name="contactcity" class="form-control e-name input" id="AddlastName" required="" type="text">
+                <label class="form-control-placeholder" for="AddlastName">Re-Enter Provisioning Email
+                <span class="icwRequired">*</span>
+                </label>
+                <span class="alert-tip error-text">
+                <i class="alert-tooltip-arrow"></i>Placeholder for Error message.</span>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <input class="btn btn-primary add-prov-email" data-dismiss="modal" value="Ok" type="button" /> 
+        </div>
+      </div>
+    </div>
+</div>
+  <!--provisioning Modal End--> 
+  
+</body>
+</html>

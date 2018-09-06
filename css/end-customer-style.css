@@ -1,0 +1,298 @@
+@charset "utf-8";
+/**/
+body{background: #f8f8f8}
+.box-shadow-radius { border-radius: 15px; box-shadow: 0 0 10px #f1f1f1;-moz-box-shadow: 0 0 10px #f1f1f1; -webkit-box-shadow: 0 0 10px #f1f1f1;}
+.box-shadow-xl { box-shadow: 0 0 10px #f1f1f1;-moz-box-shadow: 0 0 10px #f1f1f1; -webkit-box-shadow: 0 0 10px #f1f1f1;}
+
+/*Table CSS Starts*/
+.width50{min-width: 5rem; max-width: 5rem;}
+.ec-flow .table > thead > tr > th{background: none; color: #333; padding: 2.5rem 0.8rem; vertical-align: top; border:none; font-weight: 600}
+.ec-table { border-collapse:separate; margin-bottom:3rem; border-bottom-width: 0px;}
+.ec-table > tbody > tr > td { border-top:.1rem solid #d8d8d8!important; padding: 1.0rem 0.8rem;}
+.ec-table > tbody > tr.major-row > td{ padding: 2.5rem 0.8rem 1.5rem; vertical-align: top; font-size: 2.1rem;}
+.ec-table > tbody > tr.minor-row > td{ font-size: 1.6rem;}
+.minor-sku-name{font-size: 1.4rem; display: block; text-transform: uppercase; padding-top: 0.2rem; font-weight: 300; color:#666}
+.ec-table > tbody > tr.minor-row.subTotal-row > td{color: #333;}
+.ec-table > tbody > tr.minor-row.subTotal-row > td.paddingL0{font-size: 1.5rem;}
+.ec-table > tbody > tr:not(.major-row) > td:first-child, .ec-table > tbody > tr:not(.major-row) > td:last-child, .ec-table > tbody > tr.minor-row > td:first-child + td, .ec-table > tbody > tr.border-none > td, .ec-table > tbody > tr.minor-sub-line-head > td, .ec-table > tbody > tr.minor-sub-line-head + tr > td, .ec-table > tbody > tr.sub-minor-row > td:first-child + td, .ec-table > tbody > tr.sub-minor-row > td:first-child, .ec-table > tbody > tr.sub-minor-row > td:last-child{ border-top:none!important }
+.ec-table.table-hover > tbody > tr:hover,
+.ec-table > tbody > tr:hover:not(.major-row):not(.saas-row-tr) > td:first-child, .ec-table > tbody > tr:hover:not(.major-row):not(.saas-row-tr)  > td:last-child, .ec-table > tbody > tr:hover:not(.major-row):not(.saas-row-tr) > td:first-child + td{background: none!important}
+
+.ec-table .saas-row{border: none; padding: 0; margin: 0;}
+.ec-table > tbody > tr > td.no-record{padding-top: 5.0rem; padding-bottom: 3.0rem;}
+.ec-table > tbody > tr > td input.form-control{margin-top: -0.4rem;  font-style: normal; font-weight: 400;}
+.ec-table > tbody > tr.saas-row-tr:hover{background: none!important; border:none; padding: 0;}
+.ec-table > tbody > tr.sub-minor-row > td{border-top-style: dashed !important}
+
+.sku-img{width:5rem; height: 5rem; margin-right: 0.5rem}
+.sku-img > img{margin-top: -1rem}
+.sku-name{}
+.sku-desc{display: block; color: #666; padding-top: 1rem}
+.ec-table > tbody > tr.sub-line-head > td{font-size: 1.8rem; text-transform:capitalize;}
+.ec-table > tbody > tr.sub-line-head > td > label{margin:0.5rem 0 0; font-weight: 700;}
+.ec-table > tbody > tr.minor-sub-line-head > td.minor-sub-head{background: #f9f9f9 !important}
+.ec-table > tbody > tr.minor-sub-line-head > td > label{font-weight: 700; text-transform:capitalize; margin-bottom: 0}
+.ec-table > tbody > tr.minor-sub-line-head > td.minor-sub-head .icon-arrow-down{font-size: 1rem; margin: 0.5rem 0 0 1rem; float: right; display:none;}
+.ec-table > tbody > tr.minor-sub-line-head > td.minor-sub-head .icon-arrow-down:before{color:#0dbaec}
+.ec-table > tbody > tr.minor-sub-line-head > td.minor-sub-head .icon-arrow-down:hover:before{color:#006da9}
+.ec-table > tbody > tr.minor-sub-line-head > td.minor-sub-head.active .icon-arrow-down:before{content: "\e922";}
+.sub-text{font-size: 1.2rem; display: block}
+.table-view-usage:before{color: #666; font-size: 1.6rem}
+.ec-table > tbody > tr:last-child.minor-row > td{border-bottom: 1px solid #d8d8d8}
+.ec-table > tbody > tr:last-child.minor-row > td:first-child, .ec-table > tbody > tr:last-child.minor-row > td:last-child{border-bottom: none}
+@media screen and (min-width:0\0) {
+  .ec-flow .table > thead > tr > th{padding: 2.5rem 0.8rem 2.0rem}
+  .ec-table > tbody > tr > td{padding:1.4rem 0.8rem 0.8rem}
+}
+/*.checkout-content .ec-table > tbody > tr:not(.major-row):not(.minor-sub-line-head):not(.minor-row) > td:first-child + td{ border-top:1px solid #d8d8d8!important }*/
+.checkout-content .ec-table > tbody > tr.minor-row + tr.major-row > td:first-child{border-top: none!important}
+.checkout-content .ec-table .width50{min-width: 3rem; max-width: 3rem;}
+.checkout-content .box-shadow-xl{background: #fff}
+.checkout-content.ec-flow .adrs-title{margin: 0}
+
+.po_number{max-width: 22.5rem}
+/*Table CSS End*/
+/*Address & Contact Information CSS Starts*/
+.ac-info-panel{ margin: 2.5rem 0;}
+.ac-info-data{padding-top: 1.5rem;}
+.ac-info-data + .ac-info-data{padding:2.0rem 0;margin-top: 1.5rem;}
+.ac-info-panel .page-level-header{border: none;padding-top: 1.5rem; margin-bottom: 0 !important;}
+.ac-info-panel .page-level-header:before{width:0; min-width: initial}
+.ac-info-panel .page-level-header h2{margin:0; text-transform:capitalize;font-size: 2.2rem; font-weight: 600 !important; color: #333;}
+.adrs-body{padding: 0 2.5rem 0.8rem 2.5rem;}
+
+.hide-additional-contacts{float: right; font-size: 1.6rem}
+
+.contact-info-list{ float:left; width:100%; margin:1rem 0;}
+.contact-info-list li{float:left;width:100%;padding: 0;border-radius:3px;background-color:#fff;}
+.contact-info-list li + li{margin-top: 2rem}
+.contact-info-list li .contact-bar {width:100%;position:relative;display: table;padding-left:1rem; font-size: 1.6rem;}
+.contact-info-list li .contact-bar > div {padding:2rem 1rem 1.6rem; display: table-cell;vertical-align: middle;}
+.contact-info-list li .contact-bar  div * {display: inline-block;vertical-align: middle;}
+.contact-info-list li .contact-bar  div.tooltip-info{display:none}
+.contact-info-list li .contact-bar .specific-width:hover div.tooltip-info{display:block}
+.contact-info-list li .contact-bar div i { position: relative; margin-right: 0.5rem;}
+.contact-info-list li .contact-bar  .primary-name{ width: 20%;color:#333; font-size: 2.6rem; line-height: 2.4rem; font-weight: 300;}
+.contact-info-list li .contact-bar  .primary-name span { color:#333; font-size: 2.0rem; line-height: 2.4rem; font-weight: 300;}
+.contact-info-list li .contact-bar  span.company-name{ font-size: 1.6rem; line-height: 1.8rem; text-transform: uppercase; color: #999;}
+.contact-info-list li .contact-bar  .primary-number{ width: 8%;}
+.contact-info-list li .contact-bar  .primary-email{ width: 15%;}
+.contact-info-list li .contact-bar  .primary-phone-number{ width: 10%;}
+.contact-info-list li .contact-bar  .primary-state{ width: 15%;}
+.contact-info-list li .contact-bar  .primary-fax{ width: 15%;}
+.contact-info-list li .contact-bar  .contact-ctrl{background-color:#fff; padding:10px;border-left: solid 1px #e9e9e9;
+  -webkit-box-shadow: -2px 0px 5px -3px rgba(164, 164, 164, 0.8);
+  -moz-box-shadow: -2px 0px 5px -3px rgba(164, 164, 164, 0.8);
+  box-shadow: -2px 0px 5px -3px rgba(164, 164, 164, 0.8);
+  width: 9%;
+  min-width: 120px;
+  text-align: center;
+  /*-webkit-box-shadow: -2px 0px 5px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: -2px 0px 5px -3px rgba(0,0,0,0.75);
+  box-shadow: -2px 0px 5px -3px rgba(0,0,0,0.75);*/
+  }
+  @media screen and (min-color-index:0) and (-webkit-min-device-pixel-ratio:0) {
+    .contact-info-list li .contact-bar .contact-ctrl{min-width: 135px}
+  }
+.contact-info-list li .contact-bar > div:not(.primary-name):not(.primary-number):not(.contact-ctrl) > span{border-left:0.1rem solid #d8d8d8; padding-left: 2.5rem}
+.contact-info-list li .contact-bar > div.primary-name + div > span{border-left: none!important; padding-left: 0!important}
+.contact-info-list li .contact-bar > div.contact-ctrl span + span {border-left:0.1rem solid #d8d8d8; padding-left:1rem; margin-left: 1rem}
+.contact-info-list li:last-child { margin-bottom:1.0rem;}
+.addres-box-outr.additional-contact{background: none;}
+.additional-contact .add-contact-panel{margin: 0; padding: 1rem 2rem 0.5rem; min-height: inherit; text-align: left}
+.additional-contact .add-contact-panel img{margin-bottom:0; max-width: 9rem}
+.resellerContactOuter .add-contact-panel a, .endCustomerContactOuter .add-contact-panel a, .billingContactOuter .add-contact-panel a, .serviceContactOuter .add-contact-panel a, .additional-contact .add-contact-panel a{display: inline-block; width: calc(100% - 10rem); text-align: center}
+/*Address & Contact Information CSS End*/
+
+/* My Invoice Page CSS Start */
+.pss-dashboard-invoice > .table{width:170rem; max-width: initial;}
+.flex{ display: -webkit-box; display: -moz-box; display: box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -moz-box-orient: horizontal; box-orient: horizontal; -webkit-box-direction: normal; -moz-box-direction: normal; box-direction: normal; -webkit-flex-direction: row; -moz-flex-direction: row; flex-direction: row; -ms-flex-direction: row; -webkit-box-lines: multiple; -moz-box-lines: multiple; box-lines: multiple; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap;}
+.flex .addres-box-outr, .flex-div{min-height: 100%}
+
+@media not all and (min-resolution:.001dpcm) { @media {
+  .flex > .col-sm-4{margin-left:-0.5px}
+  .address-outer.flex > .col-sm-6{margin-left:-1px}
+  .flex > .flex-safari{margin-left:-1px}
+}}
+
+.summary-charges{ border: 0.5rem solid #e0e0e0!imporstant; box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2)}
+.summary-charges .adrs-title{color: #666; font-weight: 700; margin-bottom: 0.5rem}
+.summary-charges dl{margin: 0}
+.summary-charges dl > dt, .summary-charges dl > dd{width:50%; float: left; margin-top: 1rem;}
+.summary-charges dl > dd{text-align: right}
+.summary-charges dl.summary-subTotal{border-top: 1px solid #d8d8d8; margin-top: 1rem}
+.summary-charges dl.summary-total{border-top: 1px solid #d8d8d8; margin: 1rem -2.5rem 0; padding:0 2.5rem; font-size: 1.6rem;}
+.summary-total > dt, .summary-total > dd{font-weight: 700}
+.summary-charges dl span{font-size: 1.4rem;line-height: 1rem; font-weight: 400}
+.invoice-date-panel{font-size: 1.8rem; text-align: right; padding-bottom: 1.5rem; display:inline-block; vertical-align:top; line-height:1.6rem; padding-left:5px;}
+.invoice-date-panel span{text-transform:capitalize; font-weight: 300; font-size: 1.4rem; vertical-align: middle}
+.quote-ttl.invoice-ttl{border-right: 1px solid #ccc;padding-right: 10px; line-height:1.6rem; display:inline-block;}
+@media screen and (min-width:0\0) {
+    .invoice-date-panel span{top:1px; position: relative}
+    .adrs-body{padding:0 2.5rem 0.6rem 2.5rem}
+    .summary-charges dl.summary-total{padding: 0.2rem 2.5rem 0}
+}
+.parent-tile .invoice-date-panel{font-size:2.4rem; text-align: left; color:#095071;}
+.parent-tile .invoice-date-panel span{font-size: 2.4rem; display:inline-block; color:#333;}
+
+.invoice-table{padding: 0 2.5rem}
+.invoice-table .ec-table{margin-bottom: 0}
+.invoice-table .ec-table > tbody > tr.major-row > td{font-size: 1.6rem; padding: 1.5rem 0.8rem;}
+.billing-period{padding-top: 0.5rem; font-size: 1.4rem}
+.billing-period > span{color: #999; display: block}
+
+.additionalInfo-link{font-size: 1.8rem}
+
+.total-panel{background-color: #fff; border:1px solid #d8d8d8; border-radius: 0.3rem; padding: 2.5rem 2.2rem 1.5rem; font-size: 2.0rem;min-width: 40rem;}
+.total-panel > label{font-weight: 700; color: #545252; width:50%; padding-right: 1rem;float: left;}
+.total-panel > strong{width:50%;float: left;text-align: right;}
+.total-panel > strong > span{display: inline-block; font-weight: 700; font-size: 2.0rem; line-height: 1.8rem;}
+.total-panel > strong > span + span { display: block; font-weight: 400; font-size: 1.4rem; line-height: 1rem;}
+#termsModal .modal-inner > p{font-size: 1.6rem; margin-bottom: 0}
+.dispute-actions{padding-right:6rem}
+.dispute-actions > #more-dispute-id{position: absolute; top:0; right: 0;}
+.dispute-id-links{color:#0dbaec; max-width:195px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; display:inline-block;}
+ .action-col .invoice-num{top: -1px; position: relative;}
+ .pss-invoice-actions{top: 1px; margin-left: 1rem;}
+ .dispute-actions.invoice-actions .dropdown-menu.contact-tip{min-width: 130px; margin-top: 5px;}
+ .dispute-actions.invoice-actions .dropdown-menu.contact-tip .dropdown-arrow{right: 20px;}
+ .dispute-actions.invoice-actions .action-links ul li > a{padding: 0 1rem;}
+ .more-invoices .dropdown-menu.contact-tip{min-width: 110px;}
+ .more-invoices.action-links ul li{text-align: center}
+ .more-invoices .action-links ul li > a{padding-left: 0}
+ .more-invoices .dropdown-menu.contact-tip .dropdown-arrow{left: 25px;}
+ /*** Dispute added Starts ***/
+.disputed{color: #cf2131; font-weight: 700; display: inline-block; min-width: 80px;}
+.disputed:hover{color: #cf2131;}
+.disputed .add-dispute{height: auto; vertical-align: middle}
+.disputed .add-dispute .icon-hammer{position: relative; top: -0.1rem}
+
+.dispute-id-link{padding-left: 0.5rem}
+.custom-tipsy.dispute-id-link:hover > .tipsy{display: block;}
+.custom-tipsy > .tipsy.dispute-tipsy{top: -3px; margin-right: 0;}
+.custom-tipsy > .tipsy.dispute-tipsy > .tipsy-inner{min-width: 20rem; font-size: 1.5rem;}
+
+.create-dispute-link{float:left; font-size: 1.6rem; margin-top: 0rem}
+.create-dispute-link > .icon-dispute{margin-right: 0.5rem}
+.create-dispute-link:hover .icon-dispute::before{color: #049fd9}
+/*** Dispute added Ends ***/
+/*** Dispute Modal Starts ***/
+#disputeDetailModal{}a
+#disputeDetailModal .modal-body{max-height: 460px;}
+#disputeDetailModal .modal-inner{padding-bottom: 0; }
+#disputeDetailModal .modal-inner > div.col-sm-12{padding: 0 0 0 1rem}
+#disputeDetailModal .modal-inner .dispute-sub-head{background: #f9f9f9; padding:1rem 1rem 0.8rem;}
+#disputeDetailModal .modal-inner h4{font-size: 2rem; font-weight: 700; margin: 0; display: inline-block; vertical-align: middle;}
+.dispute-sub-head > .invoice-dropdown{font-size: 1.6rem; display: inline-block; vertical-align: top; padding-left: 2rem;height: 2.5rem;}
+.invoice-dropdown .dropdown-menu{min-width: 140px}
+.dispute-sub-head > .invoice-dropdown > a{position: relative; z-index: 1001;}
+.dispute-sub-head > .invoice-dropdown.open .icon-arrow-down::before{content: "\e922";}
+.dispute-sub-head > .invoice-dropdown .dropdown-arrow{right: -1px; top: calc(100% - 4px); display: none}
+.dispute-sub-head > .invoice-dropdown.open .dropdown-arrow{display: block}
+.invoice-dropdown .action-links ul li{text-align: center; border: none;}
+.invoice-dropdown .action-links ul li:first-child {text-align: center; border: none; padding: 0 1.0rem;}
+
+.invoice-dropdown .action-links ul li > a{line-height: 21px;}
+@media all and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: .001dpcm) {
+  .dispute-sub-head > .invoice-dropdown{}
+  .dispute-sub-head > .invoice-dropdown .dropdown-arrow{top: calc(100% - 5px);}
+}
+
+.dispute-info{padding-top: 0.5rem; margin : 0 -15px 0 10px}
+.dispute-info > div{padding-top: 1.5rem}
+.dispute-status{text-align: left; display: inline-block}
+.dispute-info label{display: block;font-size: 1.5rem;color: #999; margin: 0}
+.dispute-info span{display: block; font-size: 1.6rem;}
+.dispute-info span.comment-text{font-size: 2rem;font-weight: 300;line-height:  2.8rem;padding: 0.5rem 0;}
+
+.line-items{border-top:0.125rem solid #d8d8d8; padding-top: 1.5rem; margin-top: 1rem;}
+.select-invoice{display: none}
+/*** Dispute Modal End ***/
+/* My Invoice Page CSS End */
+
+/* Subscription Detail Page CSS Start */
+.subs-payment-info{background: #fff; padding:1rem 0rem 1rem 2rem; border-radius: 0.5em; position:relative}
+.subs-payment-info .subs-payment-data{min-height: 154px; padding:0.2rem 2rem 0 5.5rem;}
+.subs-payment-info .subs-payment-data > img{position: absolute; width:4rem; margin:-0.2rem 0 0 -5.5rem;}
+.subs-payment-info .subs-payment-data label{font-weight:400; font-size:1.5rem;color: #9e9ea2; display: block; margin-bottom: 0.2rem; text-transform:capitalize}
+.subs-payment-info .subs-payment-data label.name-on-card { text-transform: none;}
+.subs-payment-info .subs-payment-data > .duration{float: none}
+.subs-payment-info .duration-row{margin-left: -2.0rem;padding: 1.4rem 2.0rem 0;text-align: right;font-size: 1.4rem;text-transform:capitalize;position:  absolute;width:  100%;bottom: 1.5rem;}
+.subs-payment-info .duration-row a > i{margin-right: 0.3rem; vertical-align: middle; position: relative; top: -2px; font-size: 1.5rem}
+@media screen and (min-width:0\0) {.subs-payment-info .duration-row a > i{top:-1px}  .dispute-sub-head h4 {line-height: 2.6rem !important;} .dispute-sub-head .invoice-dropdown { padding-top: 0  !important}}
+@media screen and (min-color-index:0) and (-webkit-min-device-pixel-ratio:0){.subs-payment-info .duration-row a > i{top:-1px}}
+.subs-payment-info .duration-row a > i:before{color: #0dbaec}
+.subs-payment-info .duration-row a:hover > i:before{color: #049fd9}
+.current-cycle{font-size: 1.6rem; padding: 0.5rem 0 1.0rem}
+.current-cycle > span{background: #eee; display: block; min-height:3px; height:0.3rem; border-radius: 0.3rem; -webkit-border-radius: 0.3rem;}
+.current-cycle > span > i{background: #ffad76; border-radius:0.3rem; -webkit-border-radius: 0.3rem; width: 65%; height: 100%; display: block;}
+.subs-payment-info .quote-sumry-value{text-align: left; font-size: 2.5rem; padding-bottom: 0.5rem}
+/* Subscription Detail Page CSS End */
+/* Usage Page CSS Start */
+.usage-tile-row{margin-bottom: 0.5rem}
+/* Usage Page CSS End */
+
+.fixed-header-cont table { margin-bottom:0; }
+.quote-info-row .btn-box.hdr-level { padding-top: 1.2rem;} 
+
+/*======== Load Records Panel CSS Start ========*/
+.load-records{}
+.load-records > h2{font-weight: 700; border-bottom: 1px solid #e8e8e8; font-size: 1.6rem; padding:1.5rem 2rem 1.3rem; margin: 0}
+.load-records > .load-text{padding: 5rem 2rem 5.5rem; text-align: center; font-size: 2rem; color: #999;}
+.load-records > .load-text > label{display: block; padding-bottom: 1rem; font-weight: 200;}
+/*======== Load Records Panel CSS End ========*/
+.status span.subs-table-status{background: none; border:none; padding: 0; font-size: 1.6rem}
+
+.manage-search-con{margin-top: -0.3rem}
+.add-contact-btn{margin-top: 0.6rem}
+.add-contact-btn i{margin:0 4px 0 -4px}
+.add-contact-btn i:before{color: #fff;}
+
+
+
+
+
+/** Custom Tooltip Cotact Page Starts ***/
+#newcontactform .contact-label{padding-left: 0}
+.custom-tipsy.address-popover{top:-0.8rem}
+.custom-tipsy.address-popover > .tipsy.tipsy-n{position: relative; left: auto; top: auto; margin-left:0;}
+.custom-tipsy > .tipsy > .tipsy-inner.alert{padding:0.5rem 1.0rem 0.4rem 4rem}
+.custom-tipsy > .tipsy > .tipsy-inner.alert-warning{border-color:#f27421; color:#f27421; border-left-width: 7px;}
+
+.custom-tipsy > .tipsy-n:after, .custom-tipsy > .tipsy-n:before {bottom: 100%; left: 4.5%; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; margin-bottom: -1px;}
+
+.custom-tipsy > .tipsy-n:after, .custom-tipsy > .tipsy-n:before{left: 7.5%;}
+.custom-tipsy > .tipsy-n:after {border-color: rgba(136, 183, 213, 0); border-bottom-color: #fff; border-width: 0.8rem; margin-left: -0.8rem;}
+.custom-tipsy > .tipsy-n:before {border-color: rgba(194, 225, 245, 0); border-bottom-color: #f27421; border-width: 1.0rem; margin-left: -1.0rem;}
+
+.adrs-popup{float: left;}
+.adrs-popup-inner  { font-style: normal; font-weight: 400; font-size: 1.2rem; color: #333; display: block; white-space: normal; border: 0.1rem solid #27c4ed; border-radius: 0.3rem; padding: 0.5rem 1.0rem 0.4rem; max-width: 100%; text-shadow: none;}
+.adrs-popup-inner .adrs-info-msg {padding: 0.5rem 0;font-size: 1.2rem;display: block;width: 60%;float: left;}
+.adrs-popup-inner .adrs-checks { }
+
+.contact-list-item  li.primary-business-list .tipsy-n:before, .contact-list-item  li.primary-business-list .tipsy-n:after { left:10%;}
+.contact-list-item  li.primary-billing-list .tipsy-n:before, .contact-list-item  li.primary-billing-list .tipsy-n:after{ left:35%;}
+.contact-list-item  li.additional-list .tipsy-n:before, .contact-list-item  li.additional-list .tipsy-n:after { left:55%;}
+.inline-links{}
+.inline-links li, .alert .inline-links li {border-left:solid 0.1rem #ccc;padding:0rem 0.7rem;margin: 0 !important;line-height:  1.6rem ; display: inline-block;margin-left:1.0rem;font-size: 1.2rem;}
+.inline-links li:first-child{border-left:none;padding-left: 0; margin-left: 0}
+.alert ul.confirm-links {  float: right;margin: 1.5rem 0 0 0;float: right;}
+.adrs-popup-inner .icon-warning{background: none!important; font-size: 2.1rem}
+
+
+/** Offer Total for History Page changes  Starts **/
+.ec-table > tbody > tr.minor-row.subTotal-row.history-sub-total > td:first-child + td  { border-top:solid 1px #d8d8d8 !important;}
+.ec-table > tbody > tr:last-child.minor-row.subTotal-row.history-sub-total > td:last-child {border-top:solid 1px #d8d8d8 !important; border-bottom:solid 1px #d8d8d8 !important;}
+.ec-table > tbody > tr.minor-row.subTotal-row.history-sub-total:hover > td:first-child + td , .ec-table > tbody > tr:last-child.minor-row.subTotal-row.history-sub-total:hover > td:last-child  { background: #d8f0fd !important;}
+/** Offer Total for History Page changes  End **/
+
+
+.invoice-sub-head .invoice-dropdown .dropdown-menu{min-width:100px;left:auto;right:-4px;}
+.invoice-sub-head .invoice-dropdown .action-links ul li{text-align:left; padding:0.5rem 0 0 2rem!important; border-left: none !important;}
+.invoice-sub-head {padding-top: 4.0rem !important;}
+
+.dispute-sub-head{background: #f9f9f9 !important;line-height: 2.1rem; font-size: 1.6rem;     padding:1.5rem 0.8rem 1.0rem 1.3rem;}
+.dispute-sub-head h4 {margin:0 0 0 0;font-weight: 700; margin-bottom: 0; line-height: 2.4rem;font-size: 1.6rem;  display: inline-block; vertical-align: top;  }
+.dispute-sub-head  .invoice-dropdown{ height: 2.4rem; padding-top: 2px;}
+.dispute-sub-head  .invoice-dropdown li, .dispute-sub-head  .invoice-dropdown li:first-child { text-align: left !important; padding-left: 10px !important;}
+.more-actions.invoice-dropdown .action-links ul li { padding-left: 10px !important;}

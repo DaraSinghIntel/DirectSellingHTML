@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+.copy-adrs-link{display: none; font-size: 1.8rem; margin-top: 0.5rem;}
+/* primary contact modal*/
+/*.search-sugg-wrap-des .ui-autocomplete li.header {display:none;}*/
+.create-new-contact{ margin-top:2.0rem;}
+.no-found  span{ padding-top:1.0rem; }
+.search-sugg-wrap-des .ui-autocomplete li{ border:none; }
+.modal-inner.contact-srch-modal { min-height:30.0rem}
+/*.modal-content .form-group { margin-bottom:3.0rem; }*/
+.contact-srch-modal .input-group{border-collapse: collapse;}
+.modal-content .contact-list-item  li { margin:0  1.0rem 1.0rem 0; }
+.modal-content .adrs-panel-outr { max-width:100%;}
+.exiting-contacts, .new-address {  font-size: 2.2rem;  margin-bottom: 2.0rem; font-weight: 500;}
+.form-control:focus + .form-control-placeholder.search-lbl, .form-control:valid + .form-control-placeholder.search-lbl { font-size: 1.30rem !important;}
+@media only screen and (max-width:480px) {
+.org-info li { display: block; font-size: 1.15rem !important; margin: 0 0 0 0.2rem;}
+.user-id { display:block; }	
+.contact-list-item  li { display:block;}
+}
+
+
+.modal-content .address-outer .adrs-box-outr{padding-left: 25px; padding-right: 5px;}
+.modal-content .swith-panel{margin-top:10px; margin-left: 3.0rem;}
+.modal-content .swith-panel .btn-toggle {top: 2.1rem;}
+.modal-content .switch-info{margin-top:0px}
+.modal-content .handle-header {margin: -0.4rem 0 0 -6.6rem;}
+.modal-content .switch-info label.switch-label{margin:1.2rem 0 0 5rem}
+
+.primary-contacts{ margin-top:2.0rem;}
+.contact-info-list{ float:left; width:100%; margin:2.0rem 0;}
+
+.contact-info-list .contact-bar .org-info{margin-bottom: 0px;display: inline-block;position: relative;top:2.5rem;}
+.contact-info-list .contact-bar .org-info li{border: 0px; float: left; border-left: 1px solid #7cdaf5; padding: 0px 2rem 0px 2rem; width: auto; border-radius: 0px; margin: 0px }
+.contact-info-list .contact-bar .org-info li:first-child{border-left: 0px !important;}
+.contact-info-list .contact-bar .org-info li i{}
+.contact-bar .org-info li{font-size:1.6rem !important;}
+
+.contact-info-list li{float:left;width:100%;border:0.1rem solid #7cdaf5;padding: 0;border-radius:0.3rem;background-color:#f3fdff;margin-bottom:1.0rem;}
+.contact-info-list li:hover { background:#f1f1f1;}
+.contact-info-list li .contact-bar {width:100%;/*padding-right: 4.5rem;*/position:relative; float:left;}
+.contact-info-list li .contact-bar  .primary-business{ width: 20%;text-transform:capitalize;color: #999;font-size: 1.3rem;/* vertical-align: middle !important; */ padding:1.5rem 1.5rem 1rem 1.5rem; float: left; }
+.contact-info-list li .contact-bar  .primary-business .contact-icon{width:7rem; height:5rem;/* border: solid 0.1rem red; */margin-top: 0.5rem;background:url(../images/user-img.svg) left top no-repeat; margin-right:1rem}
+.contact-info-list li .contact-bar  .primary-business .contact-icon.bussiness{background: url(../images/icon-billing-contact.svg) left center no-repeat;}
+
+.contact-info-list li .contact-bar  .primary-business span {font-size: 1.6rem;vertical-align: middle !important; line-height:1.9rem; font-size: 300; color: #666666; }
+.contact-info-list li .contact-bar  .primary-number{ width:15%;font-size: 1.2rem;	}
+.contact-info-list li .contact-bar  .primary-number span {}
+.contact-info-list li .contact-bar  .primary-phone-number{ width: 15%;font-size: 1.2rem;}
+
+.contact-info-list li .contact-bar  .primary-phone-number span {font-size: 1.4rem;}
+.contact-info-list li .contact-bar  .primary-name{ width: 25%;color:#333 font-size: 1.8rem; padding:1.5rem 1.5rem 1rem 1.5rem; padding-left:5rem; float: left; border-left: 1px solid #7cdaf5;}
+.contact-info-list li .contact-bar  .primary-name span { font-size: 3rem; line-height:2.6rem; color: #333333; font-style: normal; font-weight: 100; display: block;}
+.contact-info-list li .contact-bar  span.company-name{ color: #333;font-size: 1.4rem;font-style: bold; font-weight: 100; margin-top:2px; text-transform: uppercase;}
+.contact-info-list li .contact-bar  .primary-icon { width: 15%; float: right;border-left: 0.1rem solid #ccc;padding-left:1.7rem;  background:orange;}
+.contact-info-list li .contact-bar  .primary-icon span {}
+.contact-info-list li .contact-bar  .primary-email{ width: 15%;color:#333;font-size: 1.2rem; }
+.contact-info-list li .contact-bar  .primary-email span { font-size: 1.4rem;}
+.contact-info-list li .contact-bar  .contact-ctrl{float: right; background-color:#fff; padding:2.3rem; top:0rem;/* border:solid 0.1rem red; */border-left: solid 0.1rem #7cdaf5;height: 100%;
+-webkit-box-shadow: -0.2rem 0rem 0.5rem -0.3rem rgba(0,0,0,0.75);
+-moz-box-shadow: -0.2rem 0rem 0.5rem -0.3rem rgba(0,0,0,0.75);
+box-shadow: -0.2rem 0rem 0.5rem -0.3rem rgba(0,0,0,0.75);
+}
+.contact-info-list li .contact-bar  .contact-ctrl .icon-edit{margin-right: 3rem;}
+.contact-info-list li .contact-bar  .contact-ctrl span {}
+.contact-info-list li .contact-bar  .primary-state { width:10%;font-size: 1.4rem;}
+.contact-info-list li .contact-bar  .primary-state span {font-size: 1.2rem;}
+.contact-info-list li .contact-bar  div {padding:0 0.5rem;/* min-height: 3.0rem; */ display: inline-block;vertical-align: middle;}
+.contact-info-list li .contact-bar  div * {/* line-height: 3.0rem; */display: inline-block;vertical-align: middle;/* min-height: 3.0rem; */}
+.contact-info-list li .contact-bar .icon-edit , .contact-info-list li .contact-bar .icon-delete-new { cursor:pointer;}
+.contact-info-list li .contact-bar .icon-edit:hover , .contact-info-list li .contact-bar .icon-delete-new:hover { color:#006da9;}
+.modal-srch-btn { position: absolute; top: 0.8rem; right:0rem; background: none; cursor: pointer; text-align: center; width: 3.0rem; height: 3.0rem; cursor: pointer;}
+
+.search-contact-form .search-panel .input-group-addon{padding-top: 0.4rem; font-size: 1.6rem;}
+/*.contact-info-list li div{ padding:1.0rem 0;}*/
+.contact-info-list li:hover { background:#f3fdff;}
+.contact-ctrl i.icon-edit,.contact-ctrl i.icon-delete-new{ line-height:3.4rem; vertical-align:top !important;}
+
+
+#shareCustomer .search-sugg-wrap-des .ui-autocomplete li{border-bottom: 1px solid #C3C3C3;}
+
+/** Custom Tooltip Cotact Page Starts ***/
+#newcontactform .contact-label{padding-left: 0}
+.custom-tipsy.address-popover{top:-0.8rem}
+.custom-tipsy.address-popover > .tipsy.tipsy-n{position: relative; left: auto; top: auto; margin-left:0;}
+.custom-tipsy > .tipsy > .tipsy-inner.alert{padding:0.5rem 1.0rem 0.4rem 4rem}
+.custom-tipsy > .tipsy > .tipsy-inner.alert-warning{border-color:#f27421; color:#f27421; border-left-width: 7px;}
+
+.custom-tipsy > .tipsy-n:after, .custom-tipsy > .tipsy-n:before {bottom: 100%; left: 4.5%; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; margin-bottom: -1px;}
+.custom-tipsy > .tipsy-n:after {border-color: rgba(136, 183, 213, 0); border-bottom-color: #fff; border-width: 0.8rem; margin-left: -0.8rem;}
+.custom-tipsy > .tipsy-n:before {border-color: rgba(194, 225, 245, 0); border-bottom-color: #f27421; border-width: 1.0rem; margin-left: -1.0rem;}
+
+.adrs-popup{float: left;}
+.adrs-popup-inner  { font-style: normal; font-weight: 400; font-size: 1.2rem; color: #333; display: block; white-space: normal; border: 0.1rem solid #27c4ed; border-radius: 0.3rem; padding: 0.5rem 1.0rem 0.4rem; max-width: 100%; text-shadow: none;}
+.adrs-popup-inner .adrs-info-msg {padding: 0.5rem 0;font-size: 1.2rem;display: block;width: 60%;float: left;}
+.adrs-popup-inner .adrs-checks { }
+
+.contact-list-item  li.primary-business-list .tipsy-n:before, .contact-list-item  li.primary-business-list .tipsy-n:after { left:10%;}
+.contact-list-item  li.primary-billing-list .tipsy-n:before, .contact-list-item  li.primary-billing-list .tipsy-n:after{ left:35%;}
+.contact-list-item  li.additional-list .tipsy-n:before, .contact-list-item  li.additional-list .tipsy-n:after { left:55%;}
+.inline-links{}
+.inline-links li, .alert .inline-links li {border-left:solid 0.1rem #ccc;padding:0rem 0.7rem;margin: 0 !important;line-height:  1.6rem ; display: inline-block;margin-left:1.0rem;font-size: 1.2rem;}
+.inline-links li:first-child{border-left:none;padding-left: 0; margin-left: 0}
+.alert ul.confirm-links {  float: right;margin: 1.5rem 0 0 0;float: right;}

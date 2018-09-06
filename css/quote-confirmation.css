@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+.modal-footer.text-center{text-align:center;}
+.quote-confirmation{padding: 5.0rem 2.0rem 6.0rem 2.0rem;margin: 0 auto;float: none;max-width: 110.0rem;}
+.quote-des:first-child{/* padding-top:1.0rem; */}
+.quote-des-bg{background-color: #f2f2f2 !important;padding: 0.7rem 2.5rem;}
+.quote-des{padding: 0 1.5rem;}
+.quote-heading {color: #333;font-style: bold;font-weight: 200;font-size:2.4rem;padding-bottom: 1.0rem;}
+.customer-info span{color: #fff;font-family: 'CiscoSans';font-size: 1.4rem;text-transform:capitalize;margin-bottom: 0;letter-Spacing: 0.05em;color: #999;font-weight: 300;}
+.customer-info p{color: #333;font-style: normal;font-weight: 200;font-size: 2.4rem;letter-Spacing: 0.05em;font-size: 2.4rem;font-style: normal;font-weight: 100;margin-bottom:0;line-height: 1.8rem;padding-top: 0.5rem;}
+.comp-name p{ line-height: 2.0rem; font-style: normal; font-weight: 400; font-size: 2.4rem; text-transform:capitalize;}
+.customer-info{/* border-right:1px solid #ccc; */padding: 1.0rem 2.0rem 1.0rem 0.0rem;}
+.customer-info:last-child{ border-right:none;}
+.succes-msg{font-size: 4.5rem;padding: 3.5rem 0 7.0rem 0;font-style: normal;font-weight: 100;line-height: 4.5rem;max-width: 700px;/* border: solid 1px red; */width: 100%;margin: auto;}
+.quote-des:last-child{/* padding-bottom:1.0rem; */border-top: 1px solid #ccc !important;}
+.customer-info .global-price { text-transform: none; font-style: italic; margin-top: 0; font-size: 1.5rem;}

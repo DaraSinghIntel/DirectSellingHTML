@@ -1,0 +1,24 @@
+@charset "utf-8";
+/**/
+.user-name-profile{background: #005073; font-size: 2.0rem; padding:1.5rem 2.2rem 1.1rem; text-transform: uppercase; color: #fff}
+/** Account Panel CSS Start **/
+.account-panel > .contact-outr-box{max-width: 80rem;}
+.account-panel > .contact-outr-box.pss-contact-box{max-width:50rem;}
+.account-panel > .contact-outr-box.pss-contact-box .custom-dropdown{width:100%;}
+.account-panel > .contact-outr-box .icwRequired{font-size: 2rem !important; vertical-align: top; padding-left: 0.2rem; height:14px; display:inline-block;}
+.account-panel > .contact-outr-box .custom-dropdown{background:#f3fdff; margin: 1rem 0 0.5rem; width: 60%;}
+.account-panel > .contact-outr-box .grey-text{font-size: 1.3rem; font-weight: 400}
+/** Account Panel CSS End **/
+/** Notification Panel CSS Start **/
+.notification-panel{}
+.notification-panel .set-notifications{background-color: #f3fdff; border: 0.1rem solid #7cdaf5; border-radius:0; padding:1rem 3rem 2rem 8.5rem;}
+.set-notifications > h3{margin: 0.5rem 0 1.5rem;}
+.set-notifications > h3 > img{width:6rem; height:6rem; margin: -0.3rem 0 0 -7.3rem; position: absolute;}
+.set-notifications > h3 > span{display: block; font-size: 1.2rem;font-weight: 300;padding-top: 0.5rem;letter-spacing: 0.1rem;}
+.set-notifications > h3 > i{display: none}
+
+.set-notifications > ul{padding: 0 0 2rem 0rem;font-size: 1.8rem;font-weight: 300;}
+.set-notifications > ul li{padding: 1.2rem 0 0.8rem;}
+.notification-panel .swith-panel { margin-top: 6px; margin-left: 3.0rem;}
+
+/** Notification Panel CSS End **/
